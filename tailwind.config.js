@@ -10,6 +10,12 @@ module.exports = {
       grey: "#505050",
       black: "#000000",
     },
+
+    fontFamily: {
+      fredoka: "'Fredoka One', cursive",
+      roboto: "'Roboto Slab', serif",
+    },
+
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
