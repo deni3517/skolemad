@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lokaler & Priser</title>
     <link rel="stylesheet" href="tailwind.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -184,190 +185,93 @@
       </div>
       <div>
         <!-- TABEL -->
-        <div class="overflow-x-auto">
+        <div class="flex justify-center overflow-x-auto">
           <table
-            class="min-w-full divide-y-2 divide-gray-200 border border-gray-100 text-sm"
+            class="text-grey font-roboto w-screen divide-y-2 divide-gray-200 border border-gray-100 text-sm lg:mx-24"
           >
             <thead>
               <tr class="divide-x divide-gray-100">
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Tidsrum
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Mandag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Tirsdag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Onsdag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Torsdag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Fredag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Lørdag
                 </th>
-                <th
-                  class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900"
-                >
+                <th class="whitespace-nowrap px-4 py-2 text-left font-bold">
                   Søndag
                 </th>
               </tr>
             </thead>
 
-            <tbody class="divide-y divide-gray-200">
+            <tbody class="text-grey divide-y divide-gray-200">
               <tr class="divide-x divide-gray-100">
-                <td
-                  class="whitespace-nowrap px-4 py-2 font-medium text-gray-900"
-                >
-                  Kl. 9-12
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
+                <td class="whitespace-nowrap px-4 py-2 font-bold">Kl. 9-12</td>
+
+                <td class="bg-green whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
               </tr>
 
               <tr class="divide-x divide-gray-100">
-                <td class="whitespace-nowrap px-4 py-2 font-medium">
-                  Kl. 12-15
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
+                <td class="whitespace-nowrap px-4 py-2 font-bold">Kl. 12-15</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
               </tr>
 
               <tr class="divide-x divide-gray-100">
-                <td class="whitespace-nowrap px-4 py-2 font-medium">
-                  Kl. 15-18
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
+                <td class="whitespace-nowrap px-4 py-2 font-bold">Kl. 15-18</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
               </tr>
 
               <tr class="divide-x divide-gray-100">
-                <td class="whitespace-nowrap px-4 py-2 font-medium">
-                  Kl. 18-21
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
+                <td class="whitespace-nowrap px-4 py-2 font-bold">Kl. 18-21</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
               </tr>
               <tr class="divide-x divide-gray-100">
-                <td class="whitespace-nowrap px-4 py-2 font-medium">
-                  Kl. 21-24
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Optaget
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
-                <td class="whitespace-nowrap px-4 py-2 text-gray-700">
-                  Ledigt
-                </td>
+                <td class="whitespace-nowrap px-4 py-2 font-bold">Kl. 21-24</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Optaget</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
+                <td class="whitespace-nowrap px-4 py-2">Ledigt</td>
               </tr>
             </tbody>
           </table>
