@@ -57,22 +57,20 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="font-fredoka relative bg-white">
+    <section class="font-fredoka relative">
       <img
-        class="absolute inset-0 h-full w-full object-cover object-[75%] sm:object-[25%] sm:opacity-100"
-        src="https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+        class="absolute inset-0 h-full w-full object-cover object-[75%] sm:object-[25%]"
+        src="/img/hero1.webp"
         alt="Couple on a bed with a dog"
       />
 
-      <div
-        class="hidden sm:absolute sm:inset-0 sm:block sm:to-transparent"
-      ></div>
+      <div class="hidden sm:absolute sm:inset-0 sm:block"></div>
 
       <div
-        class="relative mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
+        class="relative mx-auto max-w-screen-xl items-end px-4 py-32 sm:flex sm:items-end lg:flex lg:h-screen"
       >
-        <div class="max-w-xl text-center sm:text-left">
-          <h1 class="text-orange text-3xl uppercase sm:text-5xl">
+        <div class="max-w-xl text-right sm:text-right">
+          <h1 class="text-orange text-4xl uppercase sm:text-7xl">
             Musikloftet
           </h1>
 
@@ -89,17 +87,31 @@
     </section>
 
     <!-- H2 SECTION -->
-    <section class="font-fredoka">
-      <div class="mx-auto max-w-screen-xl px-4 py-24 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl text-left">
-          <h2 class="bg-blue text-3xl uppercase text-white sm:text-6xl">
-            Book dit næste øvelokale
-          </h2>
+    <section class="font-fredoka mt-20 mb-20">
+      <div class="bg-forsidebg -rotate-12 scale-100 bg-cover bg-no-repeat">
+        <div
+          class="mx-auto max-w-screen-xl rotate-12 px-4 py-24 sm:px-6 lg:px-8"
+        >
+          <div class="mx-auto max-w-3xl text-left">
+            <h2
+              class="bg-blue mb-10 p-5 text-3xl uppercase text-white sm:text-6xl"
+            >
+              Book dit næste øvelokale
+            </h2>
 
-          <h3 class="text-orange mx-auto mt-6 max-w-xl text-lg">
-            Øvelokaler på toppen af Prøvestenen i København. Vi tilbyder tre
-            typer lokaler, som alle er baggearslokaler.
-          </h3>
+            <h3 class="text-orange mx-auto mt-6 mb-10 text-lg">
+              Øvelokaler på toppen af Prøvestenen i København. Vi tilbyder tre
+              typer lokaler, som alle er baggearslokaler.
+            </h3>
+            <div class="mt-8 flex flex-wrap gap-4 text-center">
+              <a
+                class="bg-green block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                href="lokaler_priser.html"
+              >
+                Book nu
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
