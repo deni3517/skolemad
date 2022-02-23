@@ -16,7 +16,11 @@ module.exports = {
       roboto: "'Roboto Slab', serif",
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        bgimg: "url('/img/placeholder.jpg')",
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
