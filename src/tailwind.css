@@ -18,6 +18,9 @@
   #knap {
     @apply font-fredoka bg-green hover:bg-hover pulsate cursor-soundwaves text-center text-sm uppercase text-white;
   }
+  body {
+    @apply bg-beige;
+  }
 }
 
 @layer components {
