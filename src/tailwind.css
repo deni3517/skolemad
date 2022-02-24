@@ -15,6 +15,9 @@
   p {
     @apply text-grey font-roboto;
   }
+  #knap {
+    @apply font-fredoka bg-green hover:bg-hover pulsate cursor-soundwaves text-center text-sm uppercase text-white;
+  }
 }
 
 @layer components {
