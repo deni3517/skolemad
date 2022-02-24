@@ -23,6 +23,9 @@ module.exports = {
         forsideherobg: "url('/img/hero1.webp')",
       },
     },
+    width: {
+      200: "200%",
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-beige">
+  <body class="bg-beige lg:overflow-x-hidden">
     <header class="font-fredoka">
       <div class="absolute h-full w-72 bg-white p-5 px-1">
         <nav class="mt-10 flex flex-col items-end p-5">
@@ -32,7 +32,7 @@
     <section class="font-fredoka bg-forsideherobg min-h-screen w-full bg-cover">
       <div class="flex justify-center">
         <a href="index.html">
-          <img class="mt-2 h-16" src="/img/logo.png" alt="" />
+          <img class="mt-2 max-h-14" src="/img/logo.png" alt="" />
         </a>
       </div>
 
@@ -54,32 +54,34 @@
 
     <!-- H2 SECTION -->
     <section class="font-fredoka py-8">
-      <div class="bg-bgimg w-full max-w-none px-4 py-8 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl text-left">
-          <div class="bg-blue w-fit px-2">
-            <h2
-              class="flex justify-center text-3xl uppercase text-white sm:text-6xl"
-            >
-              Vores lokaler
-            </h2>
+      <div
+        class="bg-forsidebg relative left-[-10%] right-[-10%] -z-10 my-40 h-[28rem] w-[120%] -rotate-12 bg-cover sm:px-6 lg:px-8"
+      >
+        <div class="grid rotate-12 justify-items-center pt-[7rem]">
+          <div class="max-w-3xl text-left">
+            <div class="bg-blue w-fit px-2">
+              <h2 class="text-3xl uppercase text-white sm:text-6xl">
+                Vores lokaler
+              </h2>
+            </div>
+            <h3 class="text-orange mx-auto mt-6 text-lg">
+              Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét
+              lille lokale, fire mellem lokaler og tre store lokaler.
+            </h3>
+            <h3 class="text-orange mx-auto mt-6 text-lg">
+              Dertil er der fælles toilet på gangen og et lille fælleskøkken med
+              tagterasse, hvor man kan nyde et glas om sommeren.
+            </h3>
           </div>
-          <h3 class="text-orange mx-auto mt-6 text-lg">
-            Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét lille
-            lokale, fire mellem lokaler og tre store lokaler.
-          </h3>
-          <h3 class="text-orange mx-auto mt-6 text-lg">
-            Dertil er der fælles toilet på gangen og et lille fælleskøkken med
-            tagterasse, hvor man kan nyde et glas om sommeren.
-          </h3>
-        </div>
 
-        <div class="mt-8 flex flex-wrap gap-4 text-center">
-          <a
-            class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-            href="lokaler_priser.html"
-          >
-            Book nu
-          </a>
+          <div class="mt-8 max-w-fit gap-4 text-center">
+            <a
+              class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
+              href="lokaler_priser.html"
+            >
+              Book nu
+            </a>
+          </div>
         </div>
       </div>
     </section>
