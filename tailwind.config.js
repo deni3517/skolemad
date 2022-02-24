@@ -30,6 +30,7 @@ module.exports = {
       },
       cursor: {
         no: "url(/img/no.svg), pointer",
+        soundwaves: "url(/img/soundwaves.svg), pointer",
       },
     },
     width: {
