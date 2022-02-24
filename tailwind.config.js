@@ -5,6 +5,7 @@ module.exports = {
       blue: "#0511F2",
       orange: "#FFA175",
       green: "#45B773",
+      hover: "#5cc185",
       beige: "#FFF1E1",
       white: "#FFFFFF",
       grey: "#505050",
