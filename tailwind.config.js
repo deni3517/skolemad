@@ -28,6 +28,9 @@ module.exports = {
         forsideherobg: "url('/img/forside_hero1.webp')",
         forsideherobg: "url('/img/forside_hero.webp')",
       },
+      cursor: {
+        no: "url(/img/no.svg), pointer",
+      },
     },
     width: {
       200: "200%",
