@@ -13,71 +13,69 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-beige">
-    <!-- HEADER SECTION -->
-    <header class="font-fredoka shadow-sm">
-      <div class="mx-auto max-w-screen-xl p-4">
-        <div class="flex items-center justify-between space-x-4 lg:space-x-10">
-          <nav class="hidden space-x-8 text-sm font-medium md:flex">
-            <a class="text-blue uppercase" href="lokaler_priser.html"
-              >Lokaler & priser</a
-            >
-            <a class="text-blue uppercase" href="omos_kontakt.html"
-              >Om os & kontakt</a
-            >
-          </nav>
-          <div class="flex justify-center lg:w-0 lg:flex-1">
-            <a href="index.html">
-              <img class="h-12" src="/img/logo.png" alt="" />
-            </a>
-          </div>
-
-          <div class="lg:hidden">
-            <button class="text-orange rounded-lg p-2" type="button">
-              <span class="sr-only">Open menu</span>
-              <svg
-                aria-hidden="true"
-                class="h-5 w-5"
-                fill="none"
-                stroke="currentColor"
-                viewbox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4 6h16M4 12h16M4 18h16"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
+  <!-- PIANO MENU -->
+  <body class="bg-beige overflow-x-hidden">
+    <header class="font-fredoka text-xl">
+      <div class="bg-menu absolute h-full w-[15.5rem]">
+        <nav class="mt-10 flex flex-col items-end p-5">
+          <a class="text-blue mb-28 mt-10 uppercase" href="lokaler_priser.html"
+            >Lokaler & priser</a
+          >
+          <a class="text-blue mt-1 uppercase" href="omos_kontakt.html"
+            >Om os & kontakt</a
+          >
+        </nav>
       </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="font-fredoka relative">
-      <img
-        class="absolute inset-0 h-full w-full object-cover object-[75%] sm:object-[25%]"
-        src="/img/hero1.webp"
-        alt="Couple on a bed with a dog"
-      />
+    <section class="font-fredoka bg-forsideherobg min-h-screen w-full bg-cover">
+      <div class="flex justify-center">
+        <a href="index.html">
+          <img class="mt-2 max-h-14" src="/img/logo.png" alt="" />
+        </a>
+      </div>
 
-      <div class="hidden sm:absolute sm:inset-0 sm:block"></div>
+      <div class="absolute bottom-0 right-0 p-5">
+        <h1 class="text-orange text-7xl uppercase">Musikloftet</h1>
+      </div>
 
       <div
-        class="relative mx-auto max-w-screen-xl items-end px-4 py-32 sm:flex sm:items-end lg:flex lg:h-screen"
+        class="absolute top-16 -right-12 mt-2 max-w-fit rotate-90 text-center"
       >
-        <div class="max-w-xl text-right sm:text-right">
-          <h1 class="text-orange text-4xl uppercase sm:text-7xl">
-            Musikloftet
-          </h1>
+        <a
+          class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-lg uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
+          href="lokaler_priser.html#bestil"
+        >
+          Book nu
+        </a>
+      </div>
+    </section>
 
-          <div class="mt-8 flex flex-wrap gap-4 text-center">
+    <!-- H2 SECTION -->
+    <section class="font-fredoka py-8">
+      <div
+        class="bg-lokalebannerbg absolute left-[-10%] right-[-10%] -z-10 my-40 h-[28rem] w-[120%] min-w-full -rotate-12 bg-cover"
+      >
+        <div
+          class="ml-20 flex min-w-fit rotate-12 flex-col flex-wrap justify-center justify-items-center pt-[6rem] sm:ml-0 sm:grid sm:pt-[5rem] sm:pl-[7rem] md:ml-0 md:grid md:pt-[5rem] lg:ml-0 lg:grid lg:pt-[7rem] lg:pl-[0rem]"
+        >
+          <div class="max-w-md text-left sm:max-w-lg md:max-w-lg lg:max-w-3xl">
+            <div class="bg-blue p-2 px-2">
+              <h2 class="text-3xl uppercase text-white sm:text-6xl">
+                Book dit næste øvelokale
+              </h2>
+            </div>
+            <h3 class="text-orange mx-auto mt-6 text-lg">
+              Øvelokaler på toppen af Prøvestenen i København. Vi tilbyder tre
+              typer lokaler, som alle er baggearslokaler.
+            </h3>
+          </div>
+
+          <div class="mt-8 max-w-fit text-center">
             <a
-              class="bg-green block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-              href="lokaler_priser.html"
+              class="bg-green hover:bg-green/80 w-full rounded px-12 py-3 text-sm uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
+              href="lokaler_priser.html#bestil"
             >
               Book nu
             </a>
@@ -86,39 +84,11 @@
       </div>
     </section>
 
-    <!-- H2 SECTION -->
-    <section class="font-fredoka mt-20 mb-20">
-      <div class="bg-forsidebg -rotate-12 scale-100 bg-cover bg-no-repeat">
-        <div
-          class="mx-auto max-w-screen-xl rotate-12 px-4 py-24 sm:px-6 lg:px-8"
-        >
-          <div class="mx-auto max-w-3xl text-left">
-            <h2
-              class="bg-blue mb-10 p-5 text-3xl uppercase text-white sm:text-6xl"
-            >
-              Book dit næste øvelokale
-            </h2>
-
-            <h3 class="text-orange mx-auto mt-6 mb-10 text-lg">
-              Øvelokaler på toppen af Prøvestenen i København. Vi tilbyder tre
-              typer lokaler, som alle er baggearslokaler.
-            </h3>
-            <div class="mt-8 flex flex-wrap gap-4 text-center">
-              <a
-                class="bg-green block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-                href="lokaler_priser.html"
-              >
-                Book nu
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- QUOTE SECTION -->
     <section class="font-fredoka pt-20 pb-20">
-      <div class="bg-orange grid gap-10 p-20 sm:grid-cols-1 lg:grid-cols-3">
+      <div
+        class="bg-orange mt-[45rem] grid gap-10 p-20 sm:grid-cols-1 lg:grid-cols-3"
+      >
         <!-- BOX 1 -->
         <div>
           <span class="text-beige inline-block rounded-sm p-2">
@@ -213,12 +183,11 @@
           <div class="lg:order-last">
             <a href="index.html">
               <img
-                class="mt-8 w-40 hover:opacity-75"
+                class="mt-8 max-h-14 hover:opacity-75"
                 src="/img/logo.png"
                 alt="logo"
               />
             </a>
-
             <div class="mt-8 flex space-x-6"></div>
           </div>
 

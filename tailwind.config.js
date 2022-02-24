@@ -20,11 +20,12 @@ module.exports = {
       backgroundImage: {
         lokalerherobg: "url('/img/lokaler_hero.png')",
         lokalebannerbg: "url('/img/lokaler_banner.webp')",
-        kontaktbannerbg: "url('/img/img6.webp')",
         menu: "url('/img/menu.png')",
         forsidebg: "url('/img/img5.webp')",
-        forsideherobg: "url('/img/hero1.webp')",
+        kontaktbannerbg: "url('/img/img6.webp')",
         kontaktherobg: "url('/img/hero3.webp')",
+        forsideherobg: "url('/img/forside_hero1.webp')",
+        forsideherobg: "url('/img/forside_hero.webp')",
       },
     },
     width: {
