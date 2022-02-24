@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-orange text-7xl uppercase;
+  }
+  h2 {
+    @apply bg-blue font-fredoka p-2 text-3xl uppercase text-white sm:text-6xl;
+  }
+}
+
 @layer components {
   .pulsate {
     -webkit-animation: pulsate-fwd 4s ease-in-out infinite both;
