@@ -9,6 +9,9 @@
   h2 {
     @apply bg-blue font-fredoka p-2 text-3xl uppercase text-white sm:text-6xl;
   }
+  h3 {
+    @apply text-orange mx-auto mt-6 text-lg;
+  }
 }
 
 @layer components {
