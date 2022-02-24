@@ -18,7 +18,8 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        bgimg: "url('/img/placeholder.jpg')",
+        lokalerherobg: "url('/img/lokaler_hero.png')",
+        lokalebannerbg: "url('/img/lokaler_banner.webp')",
         forsidebg: "url('/img/img5.webp')",
         forsideherobg: "url('/img/hero1.webp')",
       },

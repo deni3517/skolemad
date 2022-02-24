@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-beige lg:overflow-x-hidden">
+  <body class="bg-beige overflow-x-hidden">
     <header class="font-fredoka">
       <div class="absolute h-full w-72 bg-white p-5 px-1">
         <nav class="mt-10 flex flex-col items-end p-5">
@@ -29,7 +29,7 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="font-fredoka bg-forsideherobg min-h-screen w-full bg-cover">
+    <section class="font-fredoka bg-lokalerherobg min-h-screen w-full bg-cover">
       <div class="flex justify-center">
         <a href="index.html">
           <img class="mt-2 max-h-14" src="/img/logo.png" alt="" />
@@ -55,11 +55,13 @@
     <!-- H2 SECTION -->
     <section class="font-fredoka py-8">
       <div
-        class="bg-forsidebg relative left-[-10%] right-[-10%] -z-10 my-40 h-[28rem] w-[120%] -rotate-12 bg-cover sm:px-6 lg:px-8"
+        class="bg-lokalebannerbg relative left-[-10%] right-[-10%] -z-10 my-40 h-[28rem] w-[120%] min-w-full -rotate-12 bg-cover"
       >
-        <div class="grid rotate-12 justify-items-center pt-[7rem]">
-          <div class="max-w-3xl text-left">
-            <div class="bg-blue w-fit px-2">
+        <div
+          class="static flex min-w-fit rotate-12 flex-col flex-wrap justify-center justify-items-center pt-[6rem] sm:grid sm:pt-[5rem] sm:pl-[7rem] md:grid md:pt-[5rem] lg:grid lg:pt-[7rem]"
+        >
+          <div class="max-w-md text-left sm:max-w-lg md:max-w-lg lg:max-w-3xl">
+            <div class="bg-blue px-2">
               <h2 class="text-3xl uppercase text-white sm:text-6xl">
                 Vores lokaler
               </h2>
@@ -74,9 +76,9 @@
             </h3>
           </div>
 
-          <div class="mt-8 max-w-fit gap-4 text-center">
+          <div class="mt-8 max-w-fit text-center">
             <a
-              class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
+              class="bg-green hover:bg-green/80 w-full rounded px-12 py-3 text-sm uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
               href="lokaler_priser.html"
             >
               Book nu
@@ -88,21 +90,21 @@
 
     <!-- H2 SECTION -->
     <section class="flex justify-center">
-      <div class="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+      <div class="px-4 pb-8 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-3xl text-left">
           <h2
             class="bg-blue font-fredoka text-3xl uppercase text-white sm:text-6xl"
           >
             Se vores lokaler
           </h2>
-          <p class="font-roboto text-grey">
+          <p class="font-roboto text-grey my-6 leading-7">
             Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til
             en god øver. Alle lokalerne er godt støjdæmpede, og er udstyret med
             det nødvendige for at spille. Se udstyr og ledige tider i
             lokalebeskrivelserne nedenfor.
           </p>
         </div>
-        <div class="max-w-3xl">
+        <div class="mb-8 max-w-3xl">
           <img src="/img/lokaler.png" alt="lokaleoversigt" />
         </div>
       </div>
@@ -111,7 +113,7 @@
     <!-- DET LILLE LOKALE -->
     <section>
       <div
-        class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8"
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8"
       >
         <div class="mx-auto max-w-3xl text-left">
           <h2
@@ -119,7 +121,7 @@
           >
             Det lille lokale
           </h2>
-          <div class="font-roboto text-grey">
+          <div class="font-roboto text-grey mt-6 leading-7">
             <p>
               Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre,
               der ikke har en trommeslager.
@@ -144,16 +146,14 @@
             </p>
           </div>
         </div>
-        <div class="lg:max-w-screen-sm">
-          <img src="/img/placeholder.jpg" alt="lokaleoversigt" />
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img1.webp" alt="billede" />
         </div>
       </div>
 
       <!-- TABEL START -->
-      <div class="flex justify-center overflow-x-auto">
-        <table
-          class="text-grey font-roboto w-screen divide-y-2 divide-white text-sm lg:mx-24"
-        >
+      <div class="my-4 flex justify-center overflow-x-auto">
+        <table class="text-grey font-roboto divide-y-2 divide-white text-sm">
           <thead>
             <tr class="divide-x divide-white">
               <th class="whitespace-nowrap px-4 py-2 text-center font-bold">
@@ -243,9 +243,9 @@
       </div>
       <!-- TABEL SLUT -->
 
-      <div class="mt-8 flex flex-wrap justify-center gap-4 text-center">
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4 text-center">
         <a
-          class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          class="bg-green hover:bg-green/80 font-fredoka w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
           href="lokaler_priser.html"
         >
           Book nu
@@ -256,7 +256,7 @@
     <!-- MELLEM LOKALER -->
     <section>
       <div
-        class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:flex lg:flex-row lg:gap-8 lg:px-8"
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row lg:gap-8 lg:px-8"
       >
         <div class="mx-auto max-w-3xl text-left">
           <h2
@@ -264,7 +264,7 @@
           >
             MELLEM LOKALER
           </h2>
-          <div class="font-roboto text-grey">
+          <div class="font-roboto text-grey mt-6 leading-7">
             <p>
               De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for
               mindre rockbands med trommer - typisk tre-fire bandmedlemmer.
@@ -290,12 +290,12 @@
             </p>
           </div>
         </div>
-        <div class="lg:max-w-screen-sm">
-          <img src="/img/placeholder.jpg" alt="lokaleoversigt" />
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img2.webp" alt="lokaleoversigt" />
         </div>
       </div>
       <!-- TABEL START -->
-      <div class="flex justify-center overflow-x-auto">
+      <div class="my-4 flex justify-center overflow-x-auto">
         <table
           class="text-grey font-roboto w-screen divide-y-2 divide-white text-sm lg:mx-24"
         >
@@ -387,9 +387,9 @@
         </table>
       </div>
       <!-- TABEL SLUT -->
-      <div class="mt-8 flex flex-wrap justify-center gap-4 text-center">
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4 text-center">
         <a
-          class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          class="bg-green hover:bg-green/80 font-fredoka block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
           href="lokaler_priser.html"
         >
           Book nu
@@ -400,7 +400,7 @@
     <!-- STORE LOKALER -->
     <section>
       <div
-        class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8 lg:px-8"
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8 lg:px-8"
       >
         <div class="mx-auto max-w-3xl text-left">
           <h2
@@ -408,7 +408,7 @@
           >
             STORE LOKALER
           </h2>
-          <div class="font-roboto text-grey">
+          <div class="font-roboto text-grey mt-6 leading-7">
             <p>
               De tre store lokaler er mellem 33 og 36m2, så her er der plads til
               det helt store funk-band, og så er der også en lille
@@ -435,12 +435,12 @@
             </p>
           </div>
         </div>
-        <div class="lg:max-w-screen-sm">
-          <img src="/img/placeholder.jpg" alt="lokaleoversigt" />
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img3.webp" alt="lokaleoversigt" />
         </div>
       </div>
       <!-- TABEL START -->
-      <div class="flex justify-center overflow-x-auto">
+      <div class="my-4 flex justify-center overflow-x-auto">
         <table
           class="text-grey font-roboto w-screen divide-y-2 divide-white text-sm lg:mx-24"
         >
@@ -532,9 +532,9 @@
         </table>
       </div>
       <!-- TABEL SLUT -->
-      <div class="mt-8 flex flex-wrap justify-center gap-4 text-center">
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4 text-center">
         <a
-          class="bg-green hover:bg-green/80 block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          class="bg-green hover:bg-green/80 font-fredoka block w-full rounded px-12 py-3 text-sm font-medium uppercase text-white shadow focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
           href="lokaler_priser.html"
         >
           Book nu
@@ -549,7 +549,7 @@
           <div class="lg:order-last">
             <a href="index.html">
               <img
-                class="mt-8 w-40 hover:opacity-75"
+                class="mt-8 max-h-14 hover:opacity-75"
                 src="/img/logo.png"
                 alt="logo"
               />
