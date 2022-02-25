@@ -21,6 +21,18 @@
   body {
     @apply bg-beige;
   }
+  table {
+    @apply text-grey font-roboto divide-white text-center text-sm;
+  }
+  #ugedag {
+    @apply font-bold;
+  }
+  #ledigt {
+    @apply bg-green/40 hover:bg-green/25 cursor-pointer;
+  }
+  #optaget {
+    @apply bg-orange/40 hover:bg-grey/25 cursor-no;
+  }
 }
 
 @layer components {
