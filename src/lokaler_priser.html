@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lokaler & Priser</title>
+    <link rel="stylesheet" href="tailwind.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-baggrund overflow-none h-full overflow-x-hidden bg-cover">
+    <header class="font-fredoka text-xl">
+      <div class="bg-menu absolute h-full w-[15.5rem]">
+        <nav class="mt-10 flex flex-col items-end p-5">
+          <a class="text-blue mb-28 mt-10 uppercase" href="lokaler_priser.html"
+            >Lokaler & priser</a
+          >
+          <a class="text-blue mt-1 uppercase" href="omos_kontakt.html"
+            >Om os & kontakt</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="bg-lokalerherobg min-h-screen w-full bg-cover">
+      <div class="flex justify-center">
+        <a href="index.html">
+          <img class="mt-2 max-h-14" src="/img/logo.png" alt="" />
+        </a>
+      </div>
+
+      <div class="absolute bottom-0 right-0 p-5">
+        <h1>Lokaler & priser</h1>
+      </div>
+
+      <div
+        class="absolute top-16 -right-11 mt-5 max-w-fit rotate-90 text-center"
+      >
+        <a
+          class="bg-green hover:bg-hover font-fredoka pulsate cursor-soundwaves block w-full rounded px-12 py-3 text-lg uppercase text-white shadow focus:outline-none focus:ring sm:w-auto"
+          href="#bestil"
+        >
+          Book nu
+        </a>
+      </div>
+    </section>
+
+    <!-- H2 SECTION -->
+    <section class="font-fredoka py-8">
+      <div
+        class="bg-lokalebannerbg absolute left-[-10%] right-[-10%] -z-10 my-40 h-[28rem] w-[120%] min-w-full -rotate-12 bg-cover"
+      >
+        <div
+          class="ml-20 flex min-w-fit rotate-12 flex-col flex-wrap justify-center justify-items-center pt-[6rem] sm:ml-0 sm:grid sm:pt-[5rem] sm:pl-[7rem] md:ml-0 md:grid md:pt-[5rem] lg:ml-0 lg:grid lg:pt-[7rem] lg:pl-[0rem]"
+        >
+          <div class="max-w-md text-left sm:max-w-lg md:max-w-lg lg:max-w-3xl">
+            <div class="bg-blue p-2 px-2">
+              <h2>Vores lokaler</h2>
+            </div>
+            <h3>
+              Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét
+              lille lokale, fire mellem lokaler og tre store lokaler.
+              <br />
+              Dertil er der fælles toilet på gangen og et lille fælleskøkken med
+              tagterasse, hvor man kan nyde et glas om sommeren.
+            </h3>
+          </div>
+
+          <div class="mb-20 mt-8 flex flex-wrap">
+            <a
+              id="knap"
+              class="w-full rounded px-12 py-3 shadow focus:outline-none focus:ring sm:w-auto"
+              href="lokaler_priser.html"
+            >
+              Book nu
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- H2 SECTION -->
+    <section class="mt-[45rem] flex justify-center">
+      <div class="px-4 pb-8 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl text-left">
+          <h2>Se vores lokaler</h2>
+          <p class="font-roboto text-grey my-6 leading-7">
+            Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til
+            en god øver. Alle lokalerne er godt støjdæmpede, og er udstyret med
+            det nødvendige for at spille. Se udstyr og ledige tider i
+            lokalebeskrivelserne nedenfor.
+          </p>
+        </div>
+        <div class="mb-8 max-w-3xl">
+          <img src="/img/lokaler.png" alt="lokaleoversigt" />
+        </div>
+      </div>
+    </section>
+
+    <!-- DET LILLE LOKALE -->
+    <section id="bestil">
+      <div
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8"
+      >
+        <div class="mx-auto max-w-3xl text-left">
+          <h2>Det lille lokale</h2>
+          <div class="mt-6 leading-7">
+            <p>
+              Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre,
+              der ikke har en trommeslager.
+            </p>
+            <br />
+            <p>Lokalet er udstyret med:</p>
+            <ul class="font-roboto text-grey">
+              <li>2 stk. Bronco Deville 2X10 Guitarcombo</li>
+              <li>Snorx AC30C2 Basscombo</li>
+              <li>Korka 4-kanals sanganlæg</li>
+              <li>Mooga 6 oktavers keyboard</li>
+              <li>2 stk. Castafiore vokalmikrofoner på stativ</li>
+              <li>6-spors Beckeringer mixer</li>
+            </ul>
+            <br />
+            <p>
+              Det lille lokale koster
+              <span class="font-fredoka text-orange text-lg uppercase"
+                >300/måned</span
+              >
+              for tre timer én dag om ugen, og bindingsperioden for leje af et
+              lokale er løbende måned + 30 dage. Se ledige tider i tabellen
+              nedenfor.
+            </p>
+          </div>
+        </div>
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img1.webp" alt="billede" />
+        </div>
+      </div>
+
+      <!-- TABEL START -->
+      <div class="my-4 flex justify-center overflow-x-auto">
+        <table class="divide-y-2">
+          <thead>
+            <tr class="divide-x divide-white">
+              <th id="ugedag" class="whitespace-nowrap px-4 py-2">Tidsrum</th>
+              <th class="whitespace-nowrap px-4 py-2">Mandag</th>
+              <th class="whitespace-nowrap px-4 py-2">Tirsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Onsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Torsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Fredag</th>
+              <th class="whitespace-nowrap px-4 py-2">Lørdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Søndag</th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-white">
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 9-12</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 12-15</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 15-18</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 18-21</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 21-24</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- TABEL SLUT -->
+
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          id="knap"
+          class="w-full rounded px-12 py-3 shadow focus:outline-none focus:ring sm:w-auto"
+          href="lokaler_priser.html"
+        >
+          Book nu
+        </a>
+      </div>
+    </section>
+
+    <!-- MELLEM LOKALER -->
+    <section>
+      <div
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row lg:gap-8 lg:px-8"
+      >
+        <div class="mx-auto max-w-3xl text-left">
+          <h2>Mellem lokaler</h2>
+          <div class="mt-6 leading-7">
+            <p>
+              De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for
+              mindre rockbands med trommer - typisk tre-fire bandmedlemmer.
+            </p>
+            <br />
+            <p>Lokalet er udstyret med:</p>
+            <ul class="font-roboto text-grey">
+              <li>2 stk. Bronco Deville 2X10 Guitarcombo</li>
+              <li>Snorx AC30C2 Basscombo</li>
+              <li>Korka 8-kanals sanganlæg</li>
+              <li>Mooga 6 oktavers keyboard</li>
+              <li>3 stk. Castafiore vokalmikrofoner på stativ</li>
+              <li>Pro Drums Indie trommesæt med Zhiltan bækkener</li>
+              <li>12-spors Beckeringer mixer</li>
+            </ul>
+            <br />
+            <p>
+              Et mellem lokale koster
+              <span class="font-fredoka text-orange text-lg uppercase"
+                >500/måned</span
+              >
+              for tre timer én dag om ugen, og bindingsperioden for leje af et
+              lokale er løbende måned + 30 dage. Se ledige tider i tabellen
+              nedenfor.
+            </p>
+          </div>
+        </div>
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img2.webp" alt="lokaleoversigt" />
+        </div>
+      </div>
+
+      <!-- TABEL START -->
+      <div class="my-4 flex justify-center overflow-x-auto">
+        <table class="divide-y-2">
+          <thead>
+            <tr class="divide-x divide-white">
+              <th id="ugedag" class="whitespace-nowrap px-4 py-2">Tidsrum</th>
+              <th class="whitespace-nowrap px-4 py-2">Mandag</th>
+              <th class="whitespace-nowrap px-4 py-2">Tirsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Onsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Torsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Fredag</th>
+              <th class="whitespace-nowrap px-4 py-2">Lørdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Søndag</th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-white">
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 9-12</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 12-15</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 15-18</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 18-21</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 21-24</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- TABEL SLUT -->
+
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          id="knap"
+          class="w-full rounded px-12 py-3 shadow focus:outline-none focus:ring sm:w-auto"
+          href="lokaler_priser.html"
+        >
+          Book nu
+        </a>
+      </div>
+    </section>
+
+    <!-- STORE LOKALER -->
+    <section>
+      <div
+        class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:flex lg:flex-row-reverse lg:gap-8 lg:px-8"
+      >
+        <div class="mx-auto max-w-3xl text-left">
+          <h2>Store lokaler</h2>
+          <div class="mt-6 leading-7">
+            <p>
+              De tre store lokaler er mellem 33 og 36m2, så her er der plads til
+              det helt store funk-band, og så er der også en lille
+              lounge-afdeling til at tage en chiller.
+            </p>
+            <br />
+            <p>Lokalet er udstyret med:</p>
+            <ul class="font-roboto text-grey">
+              <li>3 stk. Bronco Deville 2X10 Guitarcombo</li>
+              <li>Snorx AC30C2 Basscombo</li>
+              <li>Korka 12-kanals sanganlæg</li>
+              <li>Mooga 6 oktavers keyboard</li>
+              <li>4 stk. Castafiore vokalmikrofoner på stativ</li>
+              <li>Pro Drums Indie trommesæt med Zhiltan bækkener</li>
+              <li>18-spors Beckeringer mixer</li>
+            </ul>
+            <br />
+            <p>
+              Et stort lokale koster
+              <span class="font-fredoka text-orange text-lg uppercase"
+                >800/måned</span
+              >
+              for tre timer én dag om ugen, og bindingsperioden for leje af et
+              lokale er løbende måned + 30 dage. Se ledige tider i tabellen
+              nedenfor.
+            </p>
+          </div>
+        </div>
+        <div class="lg:max-w-sm">
+          <img src="/img/lokaler_img3.webp" alt="lokaleoversigt" />
+        </div>
+      </div>
+
+      <!-- TABEL START -->
+      <div class="my-4 flex justify-center overflow-x-auto">
+        <table class="divide-y-2">
+          <thead>
+            <tr class="divide-x divide-white">
+              <th id="ugedag" class="whitespace-nowrap px-4 py-2">Tidsrum</th>
+              <th class="whitespace-nowrap px-4 py-2">Mandag</th>
+              <th class="whitespace-nowrap px-4 py-2">Tirsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Onsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Torsdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Fredag</th>
+              <th class="whitespace-nowrap px-4 py-2">Lørdag</th>
+              <th class="whitespace-nowrap px-4 py-2">Søndag</th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-white">
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 9-12</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 12-15</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 15-18</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+            </tr>
+
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 18-21</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+            <tr class="divide-x divide-white">
+              <td id="ugedag" class="whitespace-nowrap px-4 py-2">Kl. 21-24</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="optaget" class="whitespace-nowrap px-4 py-2">Optaget</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+              <td id="ledigt" class="whitespace-nowrap px-4 py-2">Ledigt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- TABEL SLUT -->
+
+      <div class="mb-20 mt-8 flex flex-wrap justify-center gap-4 text-center">
+        <a
+          id="knap"
+          class="w-full rounded px-12 py-3 shadow focus:outline-none focus:ring sm:w-auto"
+          href="lokaler_priser.html"
+        >
+          Book nu
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER START -->
+    <footer class="bg-blue">
+      <div class="mx-auto max-w-screen-xl space-y-12 px-4 py-8 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 justify-items-center gap-8 lg:grid-cols-3">
+          <div class="lg:order-last">
+            <a href="index.html">
+              <img
+                class="mt-8 max-h-14 hover:opacity-75"
+                src="/img/logo.png"
+                alt="logo"
+              />
+            </a>
+            <div class="mt-8 flex space-x-6"></div>
+          </div>
+
+          <div
+            class="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3"
+          >
+            <div>
+              <p class="text-beige font-fredoka font-medium uppercase">
+                Kontaktoplysninger
+              </p>
+
+              <nav
+                class="text-beige font-roboto mt-2 flex flex-col space-y-2 text-sm"
+              >
+                <a class="hover:opacity-75" href="">
+                  Bastionvej 2, Prøvestenen <br />
+                  2300 København S</a
+                >
+                <a class="hover:opacity-75" href=""> info@musikloftet.dk </a>
+                <a class="hover:opacity-75" href=""> 22 55 55 12 </a>
+              </nav>
+            </div>
+
+            <div>
+              <p class="text-beige font-fredoka font-medium uppercase">
+                Andre informationer
+              </p>
+
+              <nav
+                class="text-beige font-roboto mt-2 flex flex-col space-y-2 text-sm"
+              >
+                <a class="hover:opacity-75" href="">
+                  Praktiske informationer
+                </a>
+                <a class="hover:opacity-75" href="">
+                  Retningslinjer & begrænsninger
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-beige flex justify-center">
+        <p class="text-blue font-roboto p-4 text-sm">&copy; 2022 Musikloftet</p>
+      </div>
+    </footer>
+    <!-- FOOTER SLUT -->
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
