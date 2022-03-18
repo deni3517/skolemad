@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forældre log-in</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body class="">
+    <div class="flex items-center gap-36">
+      <a href="index.html">
+        <img
+          src="/img/SkoleMad_logo.png"
+          class="h-auto max-w-xs p-5"
+          alt="skolemad logo"
+      /></a>
+      <div class="text-2xl"><h1>Skolenavn</h1></div>
+    </div>
+
+    <! –– MENU START ––>
+
+    <header class="shadow-sm">
+      <div class="mx-auto max-w-screen-xl p-4">
+        <div class="flex items-center justify-between space-x-4 lg:space-x-10">
+          <div class="flex lg:w-0 lg:flex-1">
+            <span class="h-10 w-20 rounded-lg bg-gray-200"></span>
+          </div>
+
+          <nav class="hidden space-x-8 text-sm font-medium md:flex">
+            <a class="text-gray-500" href="">Bestil</a>
+            <a class="text-gray-500" href="">Tilskud</a>
+            <a class="text-gray-500" href="">Vilkår</a>
+            <a class="text-gray-500" href="">Kontakt</a>
+          </nav>
+
+          <! –– MIN SIDE START ––>
+
+          <div class="relative inline-block text-left">
+            <div>
+              <button
+                type="button"
+                class="flex w-full items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
+                id="options-menu"
+              >
+                <svg
+                  width="20"
+                  fill="currentColor"
+                  height="20"
+                  class="text-gray-800"
+                  viewBox="0 0 1792 1792"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div
+              class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span> Indsæt penge </span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span> Tilmeld betaling</span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span> Kontoudtog </span>
+                  </span>
+                </a>
+
+                <a
+                  href="#"
+                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span> Log ud</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <! –– MIN SIDE DONE ––>
+        </div>
+      </div>
+    </header>
+    <! –– MENU DONE ––>
+
+    <!--FILTRERING START-->
+    <!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+   
+<div class="min-w-fit">
+              <ul class="mt-6 grid grid-cols-3  sm:grid-cols-3 pl-10">
+                <li>
+                  <label class="flex items-center text-sm">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-gray-200"
+                    />
+                    <span class="ml-3 font-medium">Alle</span>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="flex items-center text-sm">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-gray-200"
+                    />
+                    <span class="ml-3 font-medium">Barn 1</span>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="flex items-center text-sm">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-gray-200"
+                    />
+                    <span class="ml-3 font-medium">Barn 2</span>
+                  </label>
+                </li>
+
+
+        </div>
+    </div>
+
+    <!--FILTRERING DONE-->
+
+      <!--FOOTER START-->
+      <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Skolemad ApS <a href="https://www.google.com/maps/@55.5218338,11.8123832,17z" class="hover:underline" target="_blank">Klaringen 15 · 4174 Jystrup</a> Tlf. 70 22 29 10
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+          <li>
+            <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Om os</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Vilkår</a>
+          </li>
+          <li>
+            <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Kontakt</a>
+          </li>
+        </ul>
+      </footer>
+      <!--FOOTER DONE-->
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

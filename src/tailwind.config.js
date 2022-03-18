@@ -1,6 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
-  theme: {
+ /* theme: {
     colors: {
       blue: "#0511F2",
       orange: "#FFA175",
@@ -39,4 +39,4 @@ module.exports = {
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
-};
+}; */

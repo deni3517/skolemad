@@ -21,7 +21,7 @@ module.exports = {
       backgroundImage: {
         lokalerherobg: "url('/img/lokaler_hero.png')",
         lokalebannerbg: "url('/img/lokaler_banner.webp')",
-        baggrund: "url('/img/baggrund.png')",
+        baggrund: "url('/img/food4.webp')",
         menu: "url('/img/menu.png')",
         forsidebg: "url('/img/img5.webp')",
         kontaktbannerbg: "url('/img/img6.webp')",
