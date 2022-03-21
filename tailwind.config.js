@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     colors: {
       green: "#93C020",
-      greenHover: "#C0E563",
+      greenHover: "	hsl(77, 71%, 50%)",
       orange: "#FFC466",
 
       white: "#FFFFFF",
