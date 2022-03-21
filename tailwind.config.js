@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         forsidehero: "url('/img/food4.webp')",
+        loginhero: "url('/img/food29.webp')",
       },
       // cursor: {
       //   no: "url(/img/no.svg), pointer",
