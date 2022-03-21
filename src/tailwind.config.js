@@ -2,14 +2,14 @@ module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
  /* theme: {
     colors: {
-      blue: "#0511F2",
-      orange: "#FFA175",
-      green: "#45B773",
-      hover: "#5cc185",
-      beige: "#FFF1E1",
+      green: "#93C020",
+      green-hover: "hsl(77, 71%, 64%)",
+      orange: "#FFC466",
+
       white: "#FFFFFF",
-      grey: "#505050",
-      black: "#000000",
+      white-transparent: "#hsla(0, 0%, 100%, 0.5)",
+      light-grey: "#F6F6F6"
+      dark-grey: "#3A3A3A",
     },
 
     fontFamily: {
