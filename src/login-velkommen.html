@@ -7,7 +7,7 @@
     <title>Forældre log-in</title>
     <link rel="stylesheet" href="tailwind.css" />
   </head>
-  <body class="bg-white">
+  <body>
     
     <!-- NAV START -->
     <header class="shadow-sm">
@@ -26,19 +26,111 @@
           </nav>
     
           <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
-            <a
-              class="px-5 py-7 text-sm font-medium text-gray-500 bg-gray-100 rounded-lg"
-              href="/src/login-velkommen.html"
+
+            
+
+          <p class="bg-orange text-white p-2 ">Balance: 430 kr.</p>
+
+             <p>Peter Petersen</p>
+             <!-- MIN SIDE START-->
+ 
+          <div class="relative inline-block text-left z-10">
+
+            <div>
+              <button
+              
+                type="button"
+                class="flex w-full items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
+                id="options-menu"
+              >
+                <svg
+                  width="20"
+                  fill="currentColor"
+                  height="20"
+                  class="text-gray-800"
+                  viewBox="0 0 1792 1792"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800"
             >
-              Log ind
-            </a>
-    
-            <a
-              class="px-5 py-7 text-sm font-medium text-grey bg-blue-600 rounded-lg"
-              href=""
-            >
-              Opret konto
-            </a>
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+              
+             
+
+                  <p
+                  
+                  class="text-md block px-4 text-gray-700"
+                 
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> Skolenavn  </span>
+                  </span>
+                </p>
+
+                <p
+                  
+                  class="text-md block px-4 pb-6 text-gray-700"
+                 
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> ID: 123456  </span>
+                  </span>
+                </p>
+             
+                <a
+                  href="#"
+                  class="text-md block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> Indsæt penge </span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Tilmeld betaling</span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Kontoudtog </span>
+                  </span>
+                </a>
+
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 pt-8 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Log ud</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- MIN SIDE DONE-->
           </div>
     
           <div class="lg:hidden">
@@ -66,105 +158,13 @@
     </header>
     <!-- NAV DONE -->
 
-   <!--- MENU START-->
-
-    <header class="shadow-sm">
-      <div class="mx-auto max-w-screen-xl p-4">
-        <div class="flex items-center justify-between space-x-4 lg:space-x-10">
-          <div class="flex lg:w-0 lg:flex-1">
-            <span class="h-10 w-20 rounded-lg bg-gray-200"></span>
-          </div>
-
-          <nav class="hidden space-x-8 text-sm font-medium md:flex">
-            <a class="text-gray-500" href="">Bestil</a>
-            <a class="text-gray-500" href="">Tilskud</a>
-            <a class="text-gray-500" href="">Vilkår</a>
-            <a class="text-gray-500" href="">Kontakt</a>
-          </nav>
-
-          <!-- MIN SIDE START-->
-
-          <div class="relative inline-block text-left z-10">
-            <div>
-              <button
-                type="button"
-                class="flex w-full items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
-                id="options-menu"
-              >
-                <svg
-                  width="20"
-                  fill="currentColor"
-                  height="20"
-                  class="text-gray-800"
-                  viewBox="0 0 1792 1792"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div
-              class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800"
-            >
-              <div
-                class="py-1"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="options-menu"
-              >
-                <a
-                  href="#"
-                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span> Indsæt penge </span>
-                  </span>
-                </a>
-                <a
-                  href="#"
-                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span> Tilmeld betaling</span>
-                  </span>
-                </a>
-                <a
-                  href="#"
-                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span> Kontoudtog </span>
-                  </span>
-                </a>
-
-                <a
-                  href="#"
-                  class="text-md block block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span> Log ud</span>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- MIN SIDE DONE-->
-        </div>
-      </div>
-    </header>
-    <!--MENU DONE-->
+  
 
 <!-- HERO START -->
 <section>
-  <div class="bg-loginhero bg-cover bg-center h-72 bg-gradient">
+  <div class="bg-loginhero bg-cover bg-no-repeat bg-opacity-50 bg-center h-72">
     <div class="flex justify-center">
-      <h1 class="text-3xl sm:text-5xl">
+      <h1 class="text-3xl sm:text-5xl mt-28">
         Overskrift  
       </h1>
       </div>
@@ -191,17 +191,17 @@
                   <label class="flex items-center text-sm bg-green text-white px-8 py-3 w-36 ">
                     <input
                       type="checkbox"
-                      class="h-5 w-6 rounded-md borderborder-gray-200"
+                      class="h-5 w-6 rounded-md border border-gray-200"
                     />
                     <span class="ml-3 font-medium">Alle</span>
                   </label>
                 </li>
-<!-- relative inline-flex mt-20 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" -->
+
                 <li>
                   <label class="flex items-center text-sm bg-green text-white px-8 py-3 w-36">
                     <input
                       type="checkbox"
-                      class="h-5 w-6 rounded-md border border-gray-200"
+                      class="h-5 w-6 rounded-md border border-green-200"
                     />
                     <span class="ml-3 font-medium">Barn 1</span>
                   </label>
@@ -224,7 +224,7 @@
     <!--FILTRERING SLUT-->
 
     <!-- INDHOLD START -->
- <div class="max-w-screen-xl px-7  mx-auto sm:px-6 lg:px-8 sm:py-24"> 
+ <div class="max-w-screen-xl px-7  mx-auto sm:px-6 lg:px-8 sm:py-24 "> 
         <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
           <div class="lg:py-16">
             <article class="space-y-4">
@@ -248,7 +248,7 @@
     <!-- INDHOLD SLUT -->
 
     <!--MADRETTER START-->
-<div class="rounded shadow bg-white bg-opacity-80 max-w-screen-xl  mx-auto sm:px-6 lg:px-8 sm:py-8 px-7 py-16">
+<div class="rounded shadow bg-white bg-opacity-80 max-w-screen-xl  mx-auto sm:px-6 lg:px-8 sm:py-8 px-7 py-16 mb-28">
   <h4 class="text-2xl flex justify-center font-black">Madretter i uge 10</h4>
 
   <div class="sm:grid min-w-full sm:grid-cols-5 gap-5 p-5 sm:p-10">
@@ -311,7 +311,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
       </svg>
     </span>
-    <span class="text-sm font-medium transition-all group-hover:ml-4 ">
+    <span class="text-sm font-medium transition-all group-hover:ml-4">
      Bestil her
     </span>
   </a>
