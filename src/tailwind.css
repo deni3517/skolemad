@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 @layer base {
-    /* h1 {
-      @apply ;
-    } */
-    /* h2 {
-      @apply  text-size-h1;
-    } */
-    /* h3 {
-      @apply  ;
+    h1 {
+      @apply text-darkGrey text-5xl lg:text-6xl;
+    }
+    h2 {
+      @apply  text-darkGrey font-bold text-3xl lg:text-4xl;
+    }
+    h3 {
+      @apply  text-darkGrey font-bold text-xl lg:text-2xl;
     }
     p {
-      @apply ;
-    } */
-    /* button {
-      @apply text-white bg-green hover:bg-greenHover uppercase text-center;
-    } */
-    /* body {
+      @apply text-darkGrey text-base;
+    }
+    #button {
+      @apply text-white bg-green hover:bg-greenHover uppercase text-center text-base font-medium;
+    }
+    body {
       @apply bg-lightGrey;
-    } */
+    }
   }
