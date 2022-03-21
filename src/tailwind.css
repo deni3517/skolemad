@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    /* h1 {
+      @apply ;
+    } */
+    /* h2 {
+      @apply  text-size-h1;
+    } */
+    /* h3 {
+      @apply  ;
+    }
+    p {
+      @apply ;
+    } */
+    /* button {
+      @apply text-white bg-green hover:bg-greenHover uppercase text-center;
+    } */
+    /* body {
+      @apply bg-lightGrey;
+    } */
+  }

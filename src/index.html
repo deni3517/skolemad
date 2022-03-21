@@ -7,56 +7,47 @@
     <title>Skolemad</title>
     <link rel="stylesheet" href="tailwind.css" />
   </head>
+
   <body class="bg-white">
-    <a href="index.html">
-      <img
-        src="/img/SkoleMad_logo.png"
-        class="h-auto max-w-xs p-5"
-        alt="skolemad logo"
-    /></a>
-
-
     <!-- MENU START -->
-    <h1>Test 123</h1>
 
-    <header class="shadow-sm bg-blue">
-      <div class="mx-auto max-w-screen-xl p-4">
+    <header class="shadow-sm">
+      <div class="max-w-screen-xl p-4 mx-auto">
         <div class="flex items-center justify-between space-x-4 lg:space-x-10">
           <div class="flex lg:w-0 lg:flex-1">
-            <span class="h-10 w-20 rounded-lg bg-gray-200"></span>
+            <span class="w-10 h-10">
+              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
+            </span>
           </div>
-
+    
           <nav class="hidden space-x-8 text-sm font-medium md:flex">
             <a class="text-gray-500" href="">Køkkenliste</a>
             <a class="text-gray-500" href="">Priser</a>
             <a class="text-gray-500" href="">Kontakt</a>
           </nav>
-
-          <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
+    
+          <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
             <a
-              class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-500"
+              class="px-5 py-2 text-sm font-medium text-gray-500 bg-gray-100 rounded-lg"
               href="/src/login-velkommen.html"
             >
-              Log in
+              Log ind
             </a>
-
+    
             <a
-              class="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white"
+              class="px-5 py-2 text-sm font-medium text-grey bg-blue-600 rounded-lg"
               href=""
             >
-              Sign up
+              Opret konto
             </a>
           </div>
-
+    
           <div class="lg:hidden">
-            <button
-              class="rounded-lg bg-gray-100 p-2 text-gray-600"
-              type="button"
-            >
+            <button class="p-2 text-gray-600 bg-gray-100 rounded-lg" type="button">
               <span class="sr-only">Open menu</span>
               <svg
                 aria-hidden="true"
-                class="h-5 w-5"
+                class="w-5 h-5"
                 fill="none"
                 stroke="currentColor"
                 viewbox="0 0 24 24"
@@ -74,58 +65,117 @@
         </div>
       </div>
     </header>
+
+
+
+
+
+    
     <!-- MENU DONE -->
 
 
 <!--HERO SECTION START-->
+<section class="bg-gray-50">
+  <div class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
+    <div class="max-w-4xl lg:max-w-7xl mx-auto text-center">
+      <h1 class="text-3xl font-extrabold sm:text-5xl mb-10 hover:cursor-default">
+        Velkommen til SkoleMad
+      </h1>
+
+      <p class="mt-4 sm:leading-relaxed sm:text-xl hover:cursor-default">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-7 mt-40 hover:cursor-pointer">
+        <div class="block max-w-sm px-10 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+          <a href="foraeldre-forside.html">
+            <h3 class="text-md font-medium mb-5">Privatperson</h3>
+            <p class="text-sm">
+              Er du forældre og skal bestille mad til dit barn? - så klik her og se
+              mere om månedens madplan og bestilling af madordning
+            </p>
+            <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="#">
+              <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </span>
+              <span class="text-sm font-medium transition-all group-hover:ml-4">
+                Læs mere
+              </span>
+            </a>
+        </div>
+          
+        </a>
+
+        <div class="block max-w-sm px-10 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+          <a href="#">
+            <h3 class="text-md font-medium mb-5">Leverandør</h3>
+            <p class="text-sm">
+              Vil du have adgang til et nemt onlinesystem, hvor du nemt kan få overblik og styring til jeres madordning? - så kan vi hjælpe!
+            </p>
+          </a>
+          <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="#">
+            <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+            <span class="text-sm font-medium transition-all group-hover:ml-4">
+              Læs mere
+            </span>
+          </a>
+        </div>
+
+        <div class="block max-w-sm px-10 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+          <a href="#">
+            <h3 class="text-md font-medium mb-5">Modtager</h3>
+            <p class="text-sm">
+              Vi tilbyder madordninger til skoler, virksomheder, kommuner og institutioner. Skal vi hjælpe jer med en ordning?
+            </p>
+          </a>
+          <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="#">
+            <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+            <span class="text-sm font-medium transition-all group-hover:ml-4">
+              Læs mere
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
 <!--HERO SECTION DONE -->
 
 
 <!--SECTIONS START-->
-    <div class="flex min-w-fit">
-      <a
-        class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-        href="foraeldre-forside.html"
-      >
-        <span class="inline-block rounded-lg bg-gray-50 p-3"> </span>
-
-        <h6 class="mt-2 font-bold">Privatperson</h6>
-
-        <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-          Er du forældre og skal bestille mad til dit barn? - så klik her og se
-          mere om månedens madplan og bestilling af madordning
-        </p>
-      </a>
-
-      <a
-        class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-        href="#"
-      >
-        <span class="inline-block rounded-lg bg-gray-50 p-3">
-
-        <h6 class="mt-2 font-bold">Leverandør</h6>
-
-        <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-         Vil du have adgang til et nemt onlinesystem, hvor du nemt kan få overblik og styring til jeres madordning? - så kan vi hjælpe!
-        </p>
-      </a>
-
-      <a
-        class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-        href="#"
-      >
-        <span class="inline-block rounded-lg bg-gray-50 p-3">
-         
-        </span>
-
-        <h6 class="mt-2 font-bold">Modtager</h6>
-
-        <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-         Vi tilbyder madordninger til skoler, virksomheder, kommuner og institutioner. Skal vi hjælpe jer med en ordning?
-        </p>
-      </a>
-    </div>
+    
     <!--SECTIONS DONE-->
+
+    <section class="text-center bg-green text-white hover:cursor-default">
+      <div class="max-w-screen-xl px-4 py-9 mx-auto sm:px-6 lg:px-8">
+        <ul class="grid grid-cols-2 gap-4 rounded-xl lg:grid-cols-3">
+          <li class="p-8">
+            <p class="text-3xl font-extrabold text-teal-500">51</p>
+            <p class="mt-1 text-lg font-medium uppercase">Køkkener</p>
+          </li>
+    
+          <li class="p-8">
+            <p class="text-3xl font-extrabold text-teal-500">398</p>
+            <p class="mt-1 text-lg font-medium uppercase">Institutioner, skoler, virksomheder m.fl.</p>
+          </li>
+    
+          <li class="p-8">
+            <p class="text-3xl font-extrabold text-teal-500">141.815</p>
+            <p class="mt-1 text-lg font-medium uppercase">Brugere</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
 
     <!--FOOTER START-->
