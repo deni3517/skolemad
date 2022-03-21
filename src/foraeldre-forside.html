@@ -14,33 +14,28 @@
       <div class="mx-auto max-w-screen-xl p-4">
         <div class="flex items-center justify-between space-x-4 lg:space-x-10">
           <div class="flex lg:w-0 lg:flex-1">
-            <span class="h-10 w-10">
-              <a href="index.html"
-                ><img
-                  class="h-10 w-auto"
-                  src="/img/SkoleMad_logo_cropped.png"
-                  alt=""
-              /></a>
+            <span class="h-10 w-10 cursor-pointer">
+              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
             </span>
           </div>
 
           <nav class="hidden space-x-8 text-sm font-medium md:flex">
-            <a class="text-gray-500" href="">Køkkenliste</a>
-            <a class="text-gray-500" href="">Priser</a>
-            <a class="text-gray-500" href="">Kontakt</a>
+            <a class="text-gray-500 cursor-pointer" href="#">Køkkenliste</a>
+            <a class="text-gray-500" href="#">Priser</a>
+            <a class="text-gray-500" href="#">Kontakt</a>
           </nav>
 
           <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
             <a
               class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-500"
-              href="/src/login-velkommen.html"
+              href="login-velkommen.html"
             >
               Log ind
             </a>
 
             <a
               class="text-grey rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium"
-              href=""
+              href="login-velkommen.html"
             >
               Opret konto
             </a>
@@ -76,40 +71,33 @@
     <!-- MENU DONE-->
 
 <!--HERO SECTION START-->
-<section class="bg-gray-50">
-  <div class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
-    <div class="max-w-4xl lg:max-w-7xl mx-auto text-center">
-      <h1 class="text-3xl font-extrabold sm:text-5xl mb-10 hover:cursor-default">
-        Velkommen til SkoleMad
-      </h1>
-
-      <p class="mt-4 sm:leading-relaxed sm:text-xl hover:cursor-default">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
-      </p>
+<section class="bg-foraeldrehero bg-cover bg-no-repeat bg-fixed bg-opacity-50">
+  <div class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex pb-20">
+    <div class="max-w-4xl lg:max-w-7xl mx-auto">
 
 
-      <div class="flex flex-wrap justify-center gap-7 mt-40 hover:cursor-pointer">
-        <div class="block max-w-sm px-10 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+      <div class="flex flex-wrap justify-center gap-7 hover:cursor-pointer">
+        <div class="block max-w-sm px-10 bg-white bg-opacity-80 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
           <a href="foraeldre-forside.html">
             <h3 class="text-md font-medium mb-5">Velkommen</h3>
             <p class="text-sm">
               Er du forældre og skal bestille mad til dit barn? - så klik her og se
               mere om månedens madplan og bestilling af madordning
             </p>
-            <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="#">
+            <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="login-velkommen.html">
               <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </span>
               <span class="text-sm font-medium transition-all group-hover:ml-4">
-                Læs mere
+                Log in
               </span>
-            </a>
+            </a></a>
         </div>
-        <div class="block max-w-sm px-10 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+        <div class="block max-w-sm px-10 bg-white bg-opacity-80 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
           <a href="foraeldre-forside.html">
-            <h3 class="text-md font-medium mb-5">Velkommen</h3>
+            <h3 class="text-md font-medium mb-5">Tilskud</h3>
             <p class="text-sm">
               Er du forældre og skal bestille mad til dit barn? - så klik her og se
               mere om månedens madplan og bestilling af madordning
@@ -123,62 +111,72 @@
               <span class="text-sm font-medium transition-all group-hover:ml-4">
                 Læs mere
               </span>
-            </a>
+            </a></a>
         </div>
 </div>
 
-      <!--HERO SECTION DONE-->
+<!--HERO SECTION DONE-->
 
+<!--MADRETTER START-->
+    <div class="rounded shadow bg-white bg-opacity-80 mt-20 mb-20">
+      <h4 class="text-2xl pt-5 flex justify-center font-black">Madretter i uge 10</h4>
 
-    <div class=""><h4>Ugens retter</h4></div>
-    <div class="rounded shadow">
-      <div class="grid min-w-full grid-cols-5 gap-5 p-5 sm:p-10">
+      <div class="sm:grid min-w-full sm:grid-cols-5 gap-5 p-5 sm:p-10">
         <div class="">
-          <h5>Mandag</h5>
-          <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator</p>
+          <h5 class="text-xl font-bold mb-2">Mandag</h5>
+          <p class="text-sm ">Reference site about Lorem Ipsum, giving information on its origins.</p>
           <img
             src="/img/food1.webp"
             alt="..."
-            class="h-full w-full rounded border-none object-cover shadow"
+            class="h-full w-full rounded border-none object-cover shadow mt-4"
           />
         </div>
         <div class="">
-          <h5>Tirsdag</h5>
+          <h5 class="text-xl font-bold mb-2">Tirsdag</h5>
+          <p class="text-sm ">Reference site about Lorem Ipsum, giving information on its origins.</p>
+
           <img
             src="/img/food6.webp"
             alt="..."
-            class="h-full w-full rounded border-none object-cover shadow"
+            class="h-full w-full rounded border-none object-cover shadow mt-4"
           />
         </div>
 
         <div class="">
-          <h5>Onsdag</h5>
+          <h5 class="text-xl font-bold mb-2">Onsdag</h5>
+          <p class="text-sm ">Reference site about Lorem Ipsum, giving information on its origins.</p>
+
           <img
             src="/img/food10.webp"
             alt="..."
-            class="h-full w-full rounded border-none object-cover shadow"
+            class="h-full w-full rounded border-none object-cover shadow mt-4"
           />
         </div>
 
         <div class="">
-          <h5>Torsdag</h5>
+          <h5 class="text-xl font-bold mb-2">Torsdag</h5>
+          <p class="text-sm ">Reference site about Lorem Ipsum, giving information on its origins.</p>
+
           <img
             src="/img/food11.webp"
             alt="..."
-            class="h-full w-full rounded border-none object-cover shadow"
+            class="h-full w-full rounded border-none object-cover shadow mt-4"
           />
         </div>
 
         <div class="max-w-full object-cover">
-          <h5>Fredag</h5>
+          <h5 class="text-xl font-bold mb-2">Fredag</h5>
+          <p class="text-sm ">Reference site about Lorem Ipsum, giving information on its origins.</p>
+
           <img
             src="/img/food14.webp"
             alt="..."
-            class="h-full min-h-fit w-full rounded border-none object-cover shadow"
+            class="h-full min-h-fit w-full rounded border-none object-cover shadow mt-4"
           />
         </div>
       </div>
-      <a class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="#">
+
+      <a class="relative inline-flex mt-20 items-center px-8 py-3 overflow-hidden uppercase text-white bg-green rounded group active:bg-indigo-500 focus:outline-none focus:ring" href="login-velkommen.html">
         <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
           <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -189,6 +187,40 @@
         </span>
       </a>
     </div>
+    <!--MADRETTER DONE-->
+
+
+     <!-- P SECTION START -->
+     <div class="max-w-screen-xl px-7 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24"> 
+      <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
+        <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+          <img
+            class="absolute inset-0 object-cover w-full h-full"
+            src="/img/food23.webp"
+            alt="Man using a computer"
+          />
+        </div>
+  
+        <div class="lg:py-16">
+          <article class="space-y-4 text-gray-600">
+            <p>
+              SkoleMad tilbyder et system til at styre fleksibel og rationel levering af skolemad, mad til firmaer, mad ud af huset, take-away, pensionistmad og meget mere.
+            </p>
+            <p>
+              Systemet er åbent for alle, der ønsker at benytte det, skoler, leverandører og kommuner. Prisen er lav, og prislisten er åben og ærlig.
+            </p>
+            <p>
+              Systemet er det første og det mest udbredte og af sin slags. Systemet har i den forløbne uge ekspederet 65.415 portioner, og de sidste to måneder 524.311 portioner mad til disse.
+            </p>
+            <p>
+              Dermed er det det største, og tillige billigste, nemmeste og ærligste system. Det bruges mest til skolemad, men også til bestilling af institutionsmad, firmamad, pensionistmad, og pårørendemad på hospitaler.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!--P SECTION SLUT-->
+
     <!--FOOTER START-->
     <footer
       class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:flex md:items-center md:justify-between md:p-6"
