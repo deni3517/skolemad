@@ -237,7 +237,9 @@
   transition: all 0.5s;
   }
   input:checked + .tab-label .test {
-      background-color: #000;
+      background-color: #93C020;
+      border: #93C020;
+
   }
   input:checked + .tab-label .test svg {
       transform: rotate(180deg);
@@ -247,15 +249,17 @@
   transform: rotate(90deg);
   }
   input:checked ~ .tab-content {
-  max-height: 100vh;
+  max-height: 200vh;
   }
 </style>
 
-<main class="w-3/5 p-8 mx-auto">
+<main class="w-3/5 p-8 mx-auto bg-white mt-10 mb-10">
   <section class="shadow row">
       <div class="tabs">
-          <div class="border-b tab">
-              <div class="border-l-2 border-transparent relative">
+
+ <!--MARTS START-->
+          <div class="border-b tab border-orange">
+              <div class="border-l-2 border-transparent border-orange relative">
                   <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck1">
                   <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck1">
                       <span class="text-grey-darkest font-thin text-xl">
@@ -270,9 +274,12 @@
                       </div>
                   </header>
                   <div class="tab-content">
+
+ <!--BARN 1 START-->
+
                       <div class="pl-8 pr-8 pb-5 text-grey-darkest">
                           <ul class="pl-4">
-                              <li class="pb-2 font-bold">
+                          <li class="pb-2 font-bold">
                                   Barn 1
                               </li>
                               <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
@@ -303,16 +310,186 @@
                                 </div>
                                 <div class="px-2 mt-3">
                                   <span>28/12/2021</span>
+                                  
                                 </div>
-                                
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 11</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+
+                                  <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                    <div class="px-2 flex mt-3">
+                                      <span>Uge 12</span>
+                                    </div>
+                                    <div class="mt-3">
+                                      <span>5 x 30 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>150 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>28/12/2021</span>
+                                      
+                                    </div>
+                                    </div>
+
+                                    <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                      <div class="px-2 flex mt-3">
+                                        <span>Uge 13</span>
+                                      </div>
+                                      <div class="mt-3">
+                                        <span>5 x 30 kr.</span>
+                                      </div>
+                                      <div class="px-2 mt-3">
+                                        <span>150 kr.</span>
+                                      </div>
+                                      <div class="px-2 mt-3">
+                                        <span>28/12/2021</span>
+                                        
+                                      </div>
+                                      </div>
+                                    <div class="">
+  
+                                     
+                                      <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                      <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                    <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                    <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                    </div>
+
                           </ul>
                           
                       </div>
+
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+                      <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                        <ul class="pl-4">
+                            <li class="pb-2 font-bold">
+                                Barn 2
+                            </li>
+                            <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                              <div>
+                                <span>Ugenummer</span>
+                              </div>
+                              <div>
+                                <span>Antal retter</span>
+                              </div>
+                              <div>
+                                <span>Beløb</span>
+                              </div>
+                              <div>
+                                <span>Dato</span>
+                              </div>
+                             
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 10</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 11</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 12</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+
+                                  <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                    <div class="px-2 flex mt-3">
+                                      <span>Uge 13</span>
+                                    </div>
+                                    <div class="mt-3">
+                                      <span>5 x 30 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>150 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>28/12/2021</span>
+                                      
+                                    </div>
+                                    </div>
+                                  <div class="">
+                                
+                                    <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                    <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                  <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                  <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                  </div>
+
+                                  <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele marts 1200 kr.</h5>
+                        </ul> 
+                    </div>
+ <!--BARN 2 DONE-->
+
                   </div>
+
               </div>
           </div>
-          <div class="border-b tab">
-              <div class="border-l-2 border-transparent relative">
+
+ <!--MARTS DONE-->
+ 
+ <!--FEBRUAR START-->
+          <div class="border-b tab border-orange">
+              <div class="border-l-2 border-transparent relative border-orange">
                   <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
                   <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
                       <span class="text-grey-darkest font-thin text-xl">
@@ -327,24 +504,219 @@
                       </div>
                   </header>
                   <div class="tab-content">
+<!--BARN 1 START-->
+
                       <div class="pl-8 pr-8 pb-5 text-grey-darkest">
-                          <ul class="pl-4">
-                              <li class="pb-2">
-                                  consectetur adipiscing elit
-                              </li>
-                              <li class="pb-2">
-                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                              </li>
-                              <li class="pb-2">
-                                  Viverra orci sagittis eu volutpat odio facilisis mauris
-                              </li>
-                          </ul>
-                      </div>
+                        <ul class="pl-4">
+                        <li class="pb-2 font-bold">
+                                Barn 1
+                            </li>
+                            <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                              <div>
+                                <span>Ugenummer</span>
+                              </div>
+                              <div>
+                                <span>Antal retter</span>
+                              </div>
+                              <div>
+                                <span>Beløb</span>
+                              </div>
+                              <div>
+                                <span>Dato</span>
+                              </div>
+                             
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 10</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 11</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 12</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+
+                                  <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                    <div class="px-2 flex mt-3">
+                                      <span>Uge 13</span>
+                                    </div>
+                                    <div class="mt-3">
+                                      <span>5 x 30 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>150 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>28/12/2021</span>
+                                      
+                                    </div>
+                                    </div>
+                                  <div class="">
+
+                                   
+                                    <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                    <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                  <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                  <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                  </div>
+
+                        </ul>
+                        
+                    </div>
+
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+                    <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                      <ul class="pl-4">
+                          <li class="pb-2 font-bold">
+                              Barn 2
+                          </li>
+                          <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                            <div>
+                              <span>Ugenummer</span>
+                            </div>
+                            <div>
+                              <span>Antal retter</span>
+                            </div>
+                            <div>
+                              <span>Beløb</span>
+                            </div>
+                            <div>
+                              <span>Dato</span>
+                            </div>
+                           
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 10</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 11</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 12</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 13</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+                                <div class="">
+                              
+                                  <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                  <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                </div>
+
+                                <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele februar 1200 kr.</h5>
+                      </ul> 
+                  </div>
+<!--BARN 2 DONE-->
+
                   </div>
               </div>
           </div>
-          <div class="border-b tab">
-            <div class="border-l-2 border-transparent relative">
+<!--FEBRUAR DONE-->
+
+<!--JANUAR START-->
+          <div class="border-b tab border-orange">
+            <div class="border-l-2 border-transparent relative border-orange">
                 <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
                 <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
                     <span class="text-grey-darkest font-thin text-xl">
@@ -359,24 +731,220 @@
                     </div>
                 </header>
                 <div class="tab-content">
+ <!--BARN 1 START-->
+
                     <div class="pl-8 pr-8 pb-5 text-grey-darkest">
-                        <ul class="pl-4">
-                            <li class="pb-2">
-                                consectetur adipiscing elit
-                            </li>
-                            <li class="pb-2">
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                            </li>
-                            <li class="pb-2">
-                                Viverra orci sagittis eu volutpat odio facilisis mauris
-                            </li>
-                        </ul>
-                    </div>
+                      <ul class="pl-4">
+                      <li class="pb-2 font-bold">
+                              Barn 1
+                          </li>
+                          <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                            <div>
+                              <span>Ugenummer</span>
+                            </div>
+                            <div>
+                              <span>Antal retter</span>
+                            </div>
+                            <div>
+                              <span>Beløb</span>
+                            </div>
+                            <div>
+                              <span>Dato</span>
+                            </div>
+                           
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 10</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 11</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 12</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 13</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+                                <div class="">
+
+                                 
+                                  <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                  <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                </div>
+
+                      </ul>
+                      
+                  </div>
+
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+                  <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                    <ul class="pl-4">
+                        <li class="pb-2 font-bold">
+                            Barn 2
+                        </li>
+                        <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                          <div>
+                            <span>Ugenummer</span>
+                          </div>
+                          <div>
+                            <span>Antal retter</span>
+                          </div>
+                          <div>
+                            <span>Beløb</span>
+                          </div>
+                          <div>
+                            <span>Dato</span>
+                          </div>
+                         
+                        </div>
+
+                        <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                          <div class="px-2 flex mt-3">
+                            <span>Uge 10</span>
+                          </div>
+                          <div class="mt-3">
+                            <span>5 x 30 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>150 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>28/12/2021</span>
+                            
+                          </div>
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 11</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 12</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 13</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+                              <div class="">
+                            
+                                <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                              <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                              <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                              </div>
+
+                              <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele januar 1200 kr.</h5>
+                    </ul> 
+                </div>
+<!--BARN 2 DONE-->
+
                 </div>
             </div>
         </div>
-        <div class="border-b tab">
-          <div class="border-l-2 border-transparent relative">
+
+<!--JANUAR DONE--> 
+
+<!--DECEMBER START-->
+        <div class="border-b tab border-orange">
+          <div class="border-l-2 border-transparent relative border-orange">
               <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
               <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
                   <span class="text-grey-darkest font-thin text-xl">
@@ -391,28 +959,226 @@
                   </div>
               </header>
               <div class="tab-content">
-                  <div class="pl-8 pr-8 pb-5 text-grey-darkest">
-                      <ul class="pl-4">
-                          <li class="pb-2">
-                              consectetur adipiscing elit
-                          </li>
-                          <li class="pb-2">
-                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                          </li>
-                          <li class="pb-2">
-                              Viverra orci sagittis eu volutpat odio facilisis mauris
-                          </li>
-                      </ul>
-                  </div>
+ <!--BARN 1 START-->
+
+               <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                    <ul class="pl-4">
+                    <li class="pb-2 font-bold">
+                            Barn 1
+                        </li>
+                        <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                          <div>
+                            <span>Ugenummer</span>
+                          </div>
+                          <div>
+                            <span>Antal retter</span>
+                          </div>
+                          <div>
+                            <span>Beløb</span>
+                          </div>
+                          <div>
+                            <span>Dato</span>
+                          </div>
+                         
+                        </div>
+
+                        <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                          <div class="px-2 flex mt-3">
+                            <span>Uge 10</span>
+                          </div>
+                          <div class="mt-3">
+                            <span>5 x 30 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>150 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>28/12/2021</span>
+                            
+                          </div>
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 11</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 12</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 13</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+                              <div class="">
+
+                               
+                                <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                              <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                              <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                              </div>
+
+                    </ul>
+                    
+                </div>
+
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+                <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                  <ul class="pl-4">
+                      <li class="pb-2 font-bold">
+                          Barn 2
+                      </li>
+                      <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                        <div>
+                          <span>Ugenummer</span>
+                        </div>
+                        <div>
+                          <span>Antal retter</span>
+                        </div>
+                        <div>
+                          <span>Beløb</span>
+                        </div>
+                        <div>
+                          <span>Dato</span>
+                        </div>
+                       
+                      </div>
+
+                      <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                        <div class="px-2 flex mt-3">
+                          <span>Uge 10</span>
+                        </div>
+                        <div class="mt-3">
+                          <span>5 x 30 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>150 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>28/12/2021</span>
+                          
+                        </div>
+                        </div>
+
+                        <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                          <div class="px-2 flex mt-3">
+                            <span>Uge 11</span>
+                          </div>
+                          <div class="mt-3">
+                            <span>5 x 30 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>150 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>28/12/2021</span>
+                            
+                          </div>
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 12</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 13</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+                            <div class="">
+                          
+                              <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                              <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                            <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                            <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                            </div>
+
+                            <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele december 1200 kr.</h5>
+                  </ul> 
+              </div>
+<!--BARN 2 DONE-->
+
               </div>
           </div>
       </div>
-      <div class="border-b tab">
-        <div class="border-l-2 border-transparent relative">
+
+ <!--DECEMBER DONE-->
+
+
+  <!--NOVEMBER START-->
+
+      <div class="border-b tab border-orange">
+        <div class="border-l-2 border-transparent relative border-orange">
             <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
             <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
                 <span class="text-grey-darkest font-thin text-xl">
-                    November 2022
+                    November 2021
                 </span>
                 <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
                     <!-- icon by feathericons.com -->
@@ -423,29 +1189,223 @@
                 </div>
             </header>
             <div class="tab-content">
+ <!--BARN 1 START-->
                 <div class="pl-8 pr-8 pb-5 text-grey-darkest">
-                    <ul class="pl-4">
-                        <li class="pb-2">
-                            consectetur adipiscing elit
-                        </li>
-                        <li class="pb-2">
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                        </li>
-                        <li class="pb-2">
-                            Viverra orci sagittis eu volutpat odio facilisis mauris
-                        </li>
-                    </ul>
-                </div>
+                  <ul class="pl-4">
+                  <li class="pb-2 font-bold">
+                          Barn 1
+                      </li>
+                      <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                        <div>
+                          <span>Ugenummer</span>
+                        </div>
+                        <div>
+                          <span>Antal retter</span>
+                        </div>
+                        <div>
+                          <span>Beløb</span>
+                        </div>
+                        <div>
+                          <span>Dato</span>
+                        </div>
+                       
+                      </div>
+
+                      <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                        <div class="px-2 flex mt-3">
+                          <span>Uge 10</span>
+                        </div>
+                        <div class="mt-3">
+                          <span>5 x 30 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>150 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>28/12/2021</span>
+                          
+                        </div>
+                        </div>
+
+                        <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                          <div class="px-2 flex mt-3">
+                            <span>Uge 11</span>
+                          </div>
+                          <div class="mt-3">
+                            <span>5 x 30 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>150 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>28/12/2021</span>
+                            
+                          </div>
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 12</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 13</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+                            <div class="">
+
+                             
+                              <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                              <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                            <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                            <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                            </div>
+
+                  </ul>
+                  
+              </div>
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+              <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                <ul class="pl-4">
+                    <li class="pb-2 font-bold">
+                        Barn 2
+                    </li>
+                    <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                      <div>
+                        <span>Ugenummer</span>
+                      </div>
+                      <div>
+                        <span>Antal retter</span>
+                      </div>
+                      <div>
+                        <span>Beløb</span>
+                      </div>
+                      <div>
+                        <span>Dato</span>
+                      </div>
+                     
+                    </div>
+
+                    <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                      <div class="px-2 flex mt-3">
+                        <span>Uge 10</span>
+                      </div>
+                      <div class="mt-3">
+                        <span>5 x 30 kr.</span>
+                      </div>
+                      <div class="px-2 mt-3">
+                        <span>150 kr.</span>
+                      </div>
+                      <div class="px-2 mt-3">
+                        <span>28/12/2021</span>
+                        
+                      </div>
+                      </div>
+
+                      <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                        <div class="px-2 flex mt-3">
+                          <span>Uge 11</span>
+                        </div>
+                        <div class="mt-3">
+                          <span>5 x 30 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>150 kr.</span>
+                        </div>
+                        <div class="px-2 mt-3">
+                          <span>28/12/2021</span>
+                          
+                        </div>
+                        </div>
+
+                        <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                          <div class="px-2 flex mt-3">
+                            <span>Uge 12</span>
+                          </div>
+                          <div class="mt-3">
+                            <span>5 x 30 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>150 kr.</span>
+                          </div>
+                          <div class="px-2 mt-3">
+                            <span>28/12/2021</span>
+                            
+                          </div>
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 13</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+                          <div class="">
+                        
+                            <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                            <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                          <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                          <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                          </div>
+
+                          <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele november 1200 kr.</h5>
+                </ul> 
+            </div>
+<!--BARN 2 DONE-->
+
             </div>
         </div>
     </div>
     
-          <div class="border-b tab">
-              <div class="border-l-2 border-transparent relative">
+    <!--NOVEMBER DONE-->
+
+
+    <!--OKTOBER START-->
+          <div class="border-b tab border-orange">
+              <div class="border-l-2 border-transparent relative border-orange">
                   <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck3">
                   <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck3">
                       <span class="text-grey-darkest font-thin text-xl">
-                          Oktober 2022
+                          Oktober 2021
                       </span>
                       <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
                           <!-- icon by feathericons.com -->
@@ -456,25 +1416,236 @@
                       </div>
                   </header>
                   <div class="tab-content">
+                      <!--BARN 1 START-->
+
                       <div class="pl-8 pr-8 pb-5 text-grey-darkest">
-                          <ul class="pl-4">
-                              <li class="pb-2">
-                                  consectetur adipiscing elit
-                              </li>
-                              <li class="pb-2">
-                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                              </li>
-                              <li class="pb-2">
-                                  Viverra orci sagittis eu volutpat odio facilisis mauris
-                              </li>
-                          </ul>
-                      </div>
+                        <ul class="pl-4">
+                        <li class="pb-2 font-bold">
+                                Barn 1
+                            </li>
+                            <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                              <div>
+                                <span>Ugenummer</span>
+                              </div>
+                              <div>
+                                <span>Antal retter</span>
+                              </div>
+                              <div>
+                                <span>Beløb</span>
+                              </div>
+                              <div>
+                                <span>Dato</span>
+                              </div>
+                             
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 10</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 11</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 12</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+
+                                  <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                    <div class="px-2 flex mt-3">
+                                      <span>Uge 13</span>
+                                    </div>
+                                    <div class="mt-3">
+                                      <span>5 x 30 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>150 kr.</span>
+                                    </div>
+                                    <div class="px-2 mt-3">
+                                      <span>28/12/2021</span>
+                                      
+                                    </div>
+                                    </div>
+                                  <div class="">
+
+                                   
+                                    <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                    <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                  <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                  <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                  </div>
+
+                        </ul>
+                        
+                    </div>
+
+<!--BARN 1 DONE-->
+
+<!--BARN 2 START-->
+                    <div class="pl-8 pr-8 pb-5 text-grey-darkest min-w-full">
+                      <ul class="pl-4">
+                          <li class="pb-2 font-bold">
+                              Barn 2
+                          </li>
+                          <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                            <div>
+                              <span>Ugenummer</span>
+                            </div>
+                            <div>
+                              <span>Antal retter</span>
+                            </div>
+                            <div>
+                              <span>Beløb</span>
+                            </div>
+                            <div>
+                              <span>Dato</span>
+                            </div>
+                           
+                          </div>
+
+                          <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                            <div class="px-2 flex mt-3">
+                              <span>Uge 10</span>
+                            </div>
+                            <div class="mt-3">
+                              <span>5 x 30 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>150 kr.</span>
+                            </div>
+                            <div class="px-2 mt-3">
+                              <span>28/12/2021</span>
+                              
+                            </div>
+                            </div>
+
+                            <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                              <div class="px-2 flex mt-3">
+                                <span>Uge 11</span>
+                              </div>
+                              <div class="mt-3">
+                                <span>5 x 30 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>150 kr.</span>
+                              </div>
+                              <div class="px-2 mt-3">
+                                <span>28/12/2021</span>
+                                
+                              </div>
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 12</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                  
+                                </div>
+                                </div>
+
+                                <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                  <div class="px-2 flex mt-3">
+                                    <span>Uge 13</span>
+                                  </div>
+                                  <div class="mt-3">
+                                    <span>5 x 30 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>150 kr.</span>
+                                  </div>
+                                  <div class="px-2 mt-3">
+                                    <span>28/12/2021</span>
+                                    
+                                  </div>
+                                  </div>
+                                <div class="">
+                              
+                                  <p class="text-sm mt-10 italic">Saldo på konto 1030 kr. </p>
+                                  <p class="text-sm italic">Nuværende saldo på konto 430 kr. </p>
+
+                                <p class="text-sm  sm:flex justify-end">Betalt med Mobilepay </p>
+                                <p class="text-sm sm:flex justify-end mt-3">Beløb i alt 600  kr. </p>
+
+
+                                </div>
+
+                                <h5 class="sm:flex justify-end mt-5 text-sm font-bold">Samlet beløb for hele oktober 1200 kr.</h5>
+                      </ul> 
+                  </div>
+<!--BARN 2 DONE-->
+
                   </div>
               </div>
           </div>
-      </div>
+
+<!--OKTOBER DONE-->    
+
+<!--KNAP START-->
+<div class="text-center">
+  <a
+    id="button"
+    class="mb-10 group relative mt-10 inline-flex items-center overflow-hidden rounded px-8 py-3"
+    href="#"
+  >
+
+    <span class="transition-all"> Se mere </span>
+  </a>
+</div>
+<!--KNAP DONE-->      
+
+</div>
   </section>
 </main>
+
+
+
 
 <!--DROPDOWN DONE-->
 
