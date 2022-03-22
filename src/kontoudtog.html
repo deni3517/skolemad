@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forældre log-in</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body>
+    
+    <!-- NAV START -->
+    <header class="shadow-sm">
+      <div class="max-w-screen-xl p-4 mx-auto">
+        <div class="flex items-center justify-between space-x-4 lg:space-x-10">
+          <div class="flex lg:w-0 lg:flex-1">
+            <span class="w-10 h-10">
+              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
+            </span>
+          </div>
+    
+          <nav class="hidden space-x-8 text-md font-medium md:flex">
+            <a class="text-gray-500" href="">Køkkenliste</a>
+            <a class="text-gray-500" href="">Priser</a>
+            <a class="text-gray-500" href="">Kontakt</a>
+          </nav>
+    
+          <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
+
+            
+
+          <p class="bg-orange text-white p-2 ">Balance: 430 kr.</p>
+
+             <p>Peter Petersen</p>
+             <!-- MIN SIDE START-->
+ 
+          <div class="relative inline-block text-left z-10">
+
+            <div>
+              <button
+              
+                type="button"
+                class="flex w-full items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
+                id="options-menu"
+              >
+                <svg
+                  width="20"
+                  fill="currentColor"
+                  height="20"
+                  class="text-gray-800"
+                  viewBox="0 0 1792 1792"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+              
+             
+
+                  <p
+                  
+                  class="text-md block px-4 text-gray-700"
+                 
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> Skolenavn  </span>
+                  </span>
+                </p>
+
+                <p
+                  
+                  class="text-md block px-4 pb-6 text-gray-700"
+                 
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> ID: 123456  </span>
+                  </span>
+                </p>
+             
+                <a
+                  href="#"
+                  class="text-md block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right "> Indsæt penge </span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Tilmeld betaling</span>
+                  </span>
+                </a>
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Kontoudtog </span>
+                  </span>
+                </a>
+
+                <a
+                  href="#"
+                  class="text-md  block px-4 py-2 pt-8 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  role="menuitem"
+                >
+                  <span class="flex flex-col">
+                    <span class="text-right" > Log ud</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- MIN SIDE DONE-->
+          </div>
+    
+          <div class="lg:hidden">
+            <button class="p-2 text-gray-600 bg-gray-100 rounded-lg" type="button">
+              <span class="sr-only">Open menu</span>
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 6h16M4 12h16M4 18h16"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- NAV DONE -->
+
+  
+
+<!-- HERO START -->
+<section>
+  <div class="bg-loginhero bg-cover bg-no-repeat bg-opacity-50 bg-center h-72">
+    <div class="flex justify-center">
+      <h1 class="text-3xl sm:text-5xl mt-28">
+        Overskrift  
+      </h1>
+      </div>
+  </div>
+</section>
+<!-- HERO SLUT -->
+
+
+    <!--FILTRERING START-->
+    
+    <!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+   
+<div class="min-w-fit">
+              <ul class="mt-12 flex flex-row justify-center gap-16">
+                <li  >
+                  <label class="flex items-center text-sm bg-green text-white px-8 py-3 w-36 ">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-gray-200"
+                    />
+                    <span class="ml-3 font-medium">Alle</span>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="flex items-center text-sm bg-green text-white px-8 py-3 w-36">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-green-200"
+                    />
+                    <span class="ml-3 font-medium">Barn 1</span>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="flex items-center text-sm bg-green text-white px-8 py-3 w-36">
+                    <input
+                      type="checkbox"
+                      class="h-5 w-6 rounded-md border border-gray-200"
+                    />
+                    <span class="ml-3 font-medium">Barn 2</span>
+                  </label>
+                </li>
+
+
+        </div>
+    </div>
+
+    <!--FILTRERING SLUT-->
+
+
+
+<!--DROPDOWN START-->
+
+<!-- component -->
+<style>
+  .tab {
+  overflow: hidden;
+  }
+  .tab-content {
+  max-height: 0;
+  transition: all 0.5s;
+  }
+  input:checked + .tab-label .test {
+      background-color: #000;
+  }
+  input:checked + .tab-label .test svg {
+      transform: rotate(180deg);
+      stroke: #fff;
+  }
+  input:checked + .tab-label::after {
+  transform: rotate(90deg);
+  }
+  input:checked ~ .tab-content {
+  max-height: 100vh;
+  }
+</style>
+
+<main class="w-3/5 p-8 mx-auto">
+  <section class="shadow row">
+      <div class="tabs">
+          <div class="border-b tab">
+              <div class="border-l-2 border-transparent relative">
+                  <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck1">
+                  <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck1">
+                      <span class="text-grey-darkest font-thin text-xl">
+                          Marts 2022
+                      </span>
+                      <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                          <!-- icon by feathericons.com -->
+                          <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                              <polyline points="6 9 12 15 18 9">
+                              </polyline>
+                          </svg>
+                      </div>
+                  </header>
+                  <div class="tab-content">
+                      <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                          <ul class="pl-4">
+                              <li class="pb-2 font-bold">
+                                  Barn 1
+                              </li>
+                              <div class="flex justify-between bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-md py-2 px-4 text-green font-bold text-md">
+                                <div>
+                                  <span>Ugenummer</span>
+                                </div>
+                                <div>
+                                  <span>Antal retter</span>
+                                </div>
+                                <div>
+                                  <span>Beløb</span>
+                                </div>
+                                <div>
+                                  <span>Dato</span>
+                                </div>
+                               
+                              </div>
+
+                              <div class="flex justify-between border-t text-sm font-normal mt-2 space-x-4">
+                                <div class="px-2 flex mt-3">
+                                  <span>Uge 10</span>
+                                </div>
+                                <div class="mt-3">
+                                  <span>5 x 30 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>150 kr.</span>
+                                </div>
+                                <div class="px-2 mt-3">
+                                  <span>28/12/2021</span>
+                                </div>
+                                
+                          </ul>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="border-b tab">
+              <div class="border-l-2 border-transparent relative">
+                  <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
+                  <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
+                      <span class="text-grey-darkest font-thin text-xl">
+                          Februar 2022
+                      </span>
+                      <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                          <!-- icon by feathericons.com -->
+                          <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                              <polyline points="6 9 12 15 18 9">
+                              </polyline>
+                          </svg>
+                      </div>
+                  </header>
+                  <div class="tab-content">
+                      <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                          <ul class="pl-4">
+                              <li class="pb-2">
+                                  consectetur adipiscing elit
+                              </li>
+                              <li class="pb-2">
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                              </li>
+                              <li class="pb-2">
+                                  Viverra orci sagittis eu volutpat odio facilisis mauris
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="border-b tab">
+            <div class="border-l-2 border-transparent relative">
+                <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
+                <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
+                    <span class="text-grey-darkest font-thin text-xl">
+                        Januar 2022
+                    </span>
+                    <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                        <!-- icon by feathericons.com -->
+                        <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="6 9 12 15 18 9">
+                            </polyline>
+                        </svg>
+                    </div>
+                </header>
+                <div class="tab-content">
+                    <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                        <ul class="pl-4">
+                            <li class="pb-2">
+                                consectetur adipiscing elit
+                            </li>
+                            <li class="pb-2">
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </li>
+                            <li class="pb-2">
+                                Viverra orci sagittis eu volutpat odio facilisis mauris
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-b tab">
+          <div class="border-l-2 border-transparent relative">
+              <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
+              <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
+                  <span class="text-grey-darkest font-thin text-xl">
+                      December 2021
+                  </span>
+                  <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                      <!-- icon by feathericons.com -->
+                      <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                          <polyline points="6 9 12 15 18 9">
+                          </polyline>
+                      </svg>
+                  </div>
+              </header>
+              <div class="tab-content">
+                  <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                      <ul class="pl-4">
+                          <li class="pb-2">
+                              consectetur adipiscing elit
+                          </li>
+                          <li class="pb-2">
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          </li>
+                          <li class="pb-2">
+                              Viverra orci sagittis eu volutpat odio facilisis mauris
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="border-b tab">
+        <div class="border-l-2 border-transparent relative">
+            <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck2">
+            <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck2">
+                <span class="text-grey-darkest font-thin text-xl">
+                    November 2022
+                </span>
+                <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                    <!-- icon by feathericons.com -->
+                    <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="6 9 12 15 18 9">
+                        </polyline>
+                    </svg>
+                </div>
+            </header>
+            <div class="tab-content">
+                <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                    <ul class="pl-4">
+                        <li class="pb-2">
+                            consectetur adipiscing elit
+                        </li>
+                        <li class="pb-2">
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </li>
+                        <li class="pb-2">
+                            Viverra orci sagittis eu volutpat odio facilisis mauris
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+          <div class="border-b tab">
+              <div class="border-l-2 border-transparent relative">
+                  <input class="w-full absolute z-10 cursor-pointer opacity-0 h-5 top-6" type="checkbox" id="chck3">
+                  <header class="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label" for="chck3">
+                      <span class="text-grey-darkest font-thin text-xl">
+                          Oktober 2022
+                      </span>
+                      <div class="rounded-full border border-grey w-7 h-7 flex items-center justify-center test">
+                          <!-- icon by feathericons.com -->
+                          <svg aria-hidden="true" class="" data-reactid="266" fill="none" height="24" stroke="#606F7B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                              <polyline points="6 9 12 15 18 9">
+                              </polyline>
+                          </svg>
+                      </div>
+                  </header>
+                  <div class="tab-content">
+                      <div class="pl-8 pr-8 pb-5 text-grey-darkest">
+                          <ul class="pl-4">
+                              <li class="pb-2">
+                                  consectetur adipiscing elit
+                              </li>
+                              <li class="pb-2">
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                              </li>
+                              <li class="pb-2">
+                                  Viverra orci sagittis eu volutpat odio facilisis mauris
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</main>
+
+<!--DROPDOWN DONE-->
+
+      <!--FOOTER START-->
+      <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Skolemad ApS <a href="https://www.google.com/maps/@55.5218338,11.8123832,17z" class="hover:underline" target="_blank">Klaringen 15 · 4174 Jystrup</a> Tlf. 70 22 29 10
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+          <li>
+            <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Om os</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Vilkår</a>
+          </li>
+          <li>
+            <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Kontakt</a>
+          </li>
+        </ul>
+      </footer>
+      <!--FOOTER DONE-->
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
