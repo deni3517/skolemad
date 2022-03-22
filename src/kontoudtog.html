@@ -11,134 +11,131 @@
     
     <!-- NAV START -->
     <header class="shadow-sm">
-      <div class="max-w-screen-xl p-4 mx-auto">
+      <div class="mx-auto max-w-screen-xl p-4">
         <div class="flex items-center justify-between space-x-4 lg:space-x-10">
           <div class="flex lg:w-0 lg:flex-1">
-            <span class="w-10 h-10">
-              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
+            <span class="">
+              <a href="index.html"
+                ><img
+                  class="h-24 w-auto"
+                  src="/img/SkoleMad_logo_cropped.png"
+                  alt=""
+              /></a>
             </span>
-          </div>
-    
-          <nav class="hidden space-x-8 text-md font-medium md:flex">
-            <a class="text-gray-500" href="">Køkkenliste</a>
-            <a class="text-gray-500" href="">Priser</a>
-            <a class="text-gray-500" href="">Kontakt</a>
-          </nav>
-    
-          <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
-
-            
-
-          <p class="bg-orange text-white p-2 ">Balance: 430 kr.</p>
-
-             <p>Peter Petersen</p>
-             <!-- MIN SIDE START-->
- 
-          <div class="relative inline-block text-left z-10">
-
-            <div>
-              <button
-              
-                type="button"
-                class="flex w-full items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
-                id="options-menu"
-              >
-                <svg
-                  width="20"
-                  fill="currentColor"
-                  height="20"
-                  class="text-gray-800"
-                  viewBox="0 0 1792 1792"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
-                  ></path>
-                </svg>
-              </button>
+            <div class="pl-8">
+              <h3 class="mb-8 uppercase">Skolenavn</h3>
+              <nav class="text-md hidden space-x-8 font-medium md:flex">
+                <a class="text-darkGrey" href="">Bestil</a>
+                <a class="text-darkGrey" href="">Tilskud</a>
+                <a class="text-darkGrey" href="">Vilkår</a>
+                <a class="text-darkGrey" href="">Kontakt</a>
+              </nav>
             </div>
+          </div>
 
-            <div
-              class="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-gray-800"
-            >
+          <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
+            <!-- MIN SIDE START-->
+            <p class="bg-orange mr-14 rounded p-3 font-medium text-white">
+              Balance: 430 kr.
+            </p>
+            <p class="font-medium">Peter Petersen</p>
+
+            <div class="z-11 relative inline-block text-left">
+              <div>
+                <button
+                  type="button"
+                  class="text-darkGrey flex w-full items-center justify-center rounded-md px-4 py-7 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
+                  id="options-menu"
+                >
+                  <svg
+                    width="20"
+                    fill="currentColor"
+                    height="20"
+                    class="text-gray-800"
+                    viewBox="0 0 1792 1792"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
               <div
-                class="py-1"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="options-menu"
+                class="border-green absolute right-0 w-60 origin-top-right rounded-md border-2 bg-white bg-opacity-80 p-3 shadow-lg ring-1 dark:bg-gray-800"
               >
-              
-             
-
-                  <p
-                  
-                  class="text-md block px-4 text-gray-700"
-                 
+                <div
+                  class="py-1"
+                  role="menu"
+                  aria-orientation="vertical"
+                  aria-labelledby="options-menu"
                 >
-                  <span class="flex flex-col">
-                    <span class="text-right "> Skolenavn  </span>
-                  </span>
-                </p>
-
-                <p
-                  
-                  class="text-md block px-4 pb-6 text-gray-700"
-                 
-                >
-                  <span class="flex flex-col">
-                    <span class="text-right "> ID: 123456  </span>
-                  </span>
-                </p>
-             
-                <a
-                  href="#"
-                  class="text-md block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span class="text-right "> Indsæt penge </span>
-                  </span>
-                </a>
-                <a
-                  href="#"
-                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span class="text-right" > Tilmeld betaling</span>
-                  </span>
-                </a>
-                <a
-                  href="#"
-                  class="text-md  block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span class="text-right" > Kontoudtog </span>
-                  </span>
-                </a>
-
-                <a
-                  href="#"
-                  class="text-md  block px-4 py-2 pt-8 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                >
-                  <span class="flex flex-col">
-                    <span class="text-right" > Log ud</span>
-                  </span>
-                </a>
+                  <p class="text-md block px-4">
+                    <span class="flex flex-col">
+                      <span class="text-right text-base font-medium">
+                        Skolenavn
+                      </span>
+                    </span>
+                  </p>
+                  <p class="text-md block px-4 pb-6">
+                    <span class="flex flex-col">
+                      <span class="text-right text-sm"> ID: 123456 </span>
+                    </span>
+                  </p>
+                  <a
+                    href="#"
+                    class="text-md text-darkGrey block px-4 py-2 font-medium hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    role="menuitem"
+                  >
+                    <span class="flex flex-col">
+                      <span class="hover:text-green text-right text-base">
+                        Indsæt penge
+                      </span>
+                    </span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-darkGrey hover:text-green block px-4 py-2 text-base font-semibold"
+                    role="menuitem"
+                  >
+                    <span class="flex flex-col">
+                      <span class="text-right">Tilmeld betaling</span>
+                    </span>
+                  </a>
+                  <a
+                    href="kontoudtog.html"
+                    class="text-darkGrey hover:text-green block px-4 py-2 text-base font-semibold"
+                    role="menuitem"
+                  >
+                    <span class="flex flex-col">
+                      <span class="text-right">Kontoudtog </span>
+                    </span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-md text-darkGrey hover:text-orange block px-4 py-2 pt-8 hover:font-semibold"
+                    role="menuitem"
+                  >
+                    <span class="flex flex-col">
+                      <span class="text-right"> Log ud</span>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
+            <!-- MIN SIDE DONE-->
           </div>
-          <!-- MIN SIDE DONE-->
-          </div>
-    
+
           <div class="lg:hidden">
-            <button class="p-2 text-gray-600 bg-gray-100 rounded-lg" type="button">
+            <button
+              class="rounded-lg bg-gray-100 p-2 text-gray-600"
+              type="button"
+            >
               <span class="sr-only">Open menu</span>
               <svg
                 aria-hidden="true"
-                class="w-5 h-5"
+                class="h-5 w-5"
                 fill="none"
                 stroke="currentColor"
                 viewbox="0 0 24 24"
