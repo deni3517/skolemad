@@ -8,36 +8,40 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
 
-
   <body>
-    
     <!-- NAV START -->
     <header class="shadow-sm">
-      <div class="max-w-screen-xl p-4 mx-auto">
+      <div class="mx-auto max-w-screen-xl p-4">
         <div class="flex items-center justify-between space-x-4 lg:space-x-10">
           <div class="flex lg:w-0 lg:flex-1">
-            <span class="w-10 h-10">
-              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
+            <span class="h-10 w-10">
+              <a href="index.html"
+                ><img
+                  class="h-10 w-auto"
+                  src="/img/SkoleMad_logo_cropped.png"
+                  alt=""
+              /></a>
             </span>
           </div>
-    
-          <nav class="hidden space-x-8 text-md font-medium md:flex">
+
+          <nav class="text-md hidden space-x-8 font-medium md:flex">
             <a class="text-darkGrey" href="">Køkkenliste</a>
             <a class="text-darkGrey" href="">Priser</a>
             <a class="text-darkGrey" href="">Kontakt</a>
           </nav>
-    
-          <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
 
+          <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
             <!-- MIN SIDE START-->
-            <p class="bg-orange text-white mr-14 p-3 font-medium rounded">Balance: 430 kr.</p>
+            <p class="bg-orange mr-14 rounded p-3 font-medium text-white">
+              Balance: 430 kr.
+            </p>
             <p class="font-medium">Peter Petersen</p>
-  
-            <div class="relative inline-block text-left z-11">
+
+            <div class="z-11 relative inline-block text-left">
               <div>
                 <button
                   type="button"
-                  class="flex w-full items-center justify-center rounded-md px-4 py-7 text-sm font-medium text-darkGrey hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
+                  class="text-darkGrey flex w-full items-center justify-center rounded-md px-4 py-7 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-100 dark:text-gray-50 dark:hover:bg-gray-500"
                   id="options-menu"
                 >
                   <svg
@@ -56,7 +60,7 @@
               </div>
 
               <div
-                class="absolute right-0 w-60 origin-top-right p-3 rounded-md bg-white bg-opacity-80 shadow-lg ring-1 border-green border-2 dark:bg-gray-800"
+                class="border-green absolute right-0 w-60 origin-top-right rounded-md border-2 bg-white bg-opacity-80 p-3 shadow-lg ring-1 dark:bg-gray-800"
               >
                 <div
                   class="py-1"
@@ -66,26 +70,30 @@
                 >
                   <p class="text-md block px-4">
                     <span class="flex flex-col">
-                      <span class="text-right font-medium text-base"> Skolenavn  </span>
+                      <span class="text-right text-base font-medium">
+                        Skolenavn
+                      </span>
                     </span>
                   </p>
                   <p class="text-md block px-4 pb-6">
                     <span class="flex flex-col">
-                      <span class="text-right text-sm"> ID: 123456  </span>
+                      <span class="text-right text-sm"> ID: 123456 </span>
                     </span>
                   </p>
                   <a
                     href="#"
-                    class="text-md block px-4 py-2 text-darkGrey font-medium hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="text-md text-darkGrey block px-4 py-2 font-medium hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
                     <span class="flex flex-col">
-                      <span class="text-right text-base hover:text-green"> Indsæt penge </span>
+                      <span class="hover:text-green text-right text-base">
+                        Indsæt penge
+                      </span>
                     </span>
                   </a>
                   <a
                     href="#"
-                    class="text-base block px-4 py-2 text-darkGrey hover:text-green font-semibold"
+                    class="text-darkGrey hover:text-green block px-4 py-2 text-base font-semibold"
                     role="menuitem"
                   >
                     <span class="flex flex-col">
@@ -94,7 +102,7 @@
                   </a>
                   <a
                     href="kontoudtog.html"
-                    class="text-base block px-4 py-2 text-darkGrey hover:text-green font-semibold"
+                    class="text-darkGrey hover:text-green block px-4 py-2 text-base font-semibold"
                     role="menuitem"
                   >
                     <span class="flex flex-col">
@@ -103,7 +111,7 @@
                   </a>
                   <a
                     href="#"
-                    class="text-md block px-4 py-2 pt-8 text-darkGrey hover:text-orange hover:font-semibold"
+                    class="text-md text-darkGrey hover:text-orange block px-4 py-2 pt-8 hover:font-semibold"
                     role="menuitem"
                   >
                     <span class="flex flex-col">
@@ -117,11 +125,14 @@
           </div>
 
           <div class="lg:hidden">
-            <button class="p-2 text-gray-600 bg-gray-100 rounded-lg" type="button">
+            <button
+              class="rounded-lg bg-gray-100 p-2 text-gray-600"
+              type="button"
+            >
               <span class="sr-only">Open menu</span>
               <svg
                 aria-hidden="true"
-                class="w-5 h-5"
+                class="h-5 w-5"
                 fill="none"
                 stroke="currentColor"
                 viewbox="0 0 24 24"
@@ -141,23 +152,20 @@
     </header>
     <!-- NAV DONE -->
 
-  
-
     <!-- HERO START -->
     <section>
-      <div class="bg-loginhero bg-cover bg-no-repeat bg-opacity-50 bg-center h-72">
+      <div
+        class="bg-loginhero h-72 bg-opacity-50 bg-cover bg-center bg-no-repeat"
+      >
         <div class="flex justify-center">
-          <h1 class="mt-28">
-            Overskrift  
-          </h1>
-          </div>
+          <h1 class="mt-28">Overskrift</h1>
+        </div>
       </div>
     </section>
     <!-- HERO SLUT -->
 
-
     <!--FILTRERING START-->
-    
+
     <!--
     This component uses @tailwindcss/forms
 
@@ -167,151 +175,209 @@
     plugins: [require('@tailwindcss/forms')]
     -->
 
-   
     <div class="min-w-fit">
-                <ul class="mt-12 flex flex-row justify-center gap-16">
-                  <li>
-                    <label id="button" class="flex items-center hover:cursor-pointer px-8 py-3 w-40 rounded">
-                      <input
-                        type="checkbox"
-                        class="h-5 w-6 rounded-md border border-darkGrey hover:cursor-pointer"
-                      />
-                      <span class="ml-3 font-medium">Alle</span>
-                    </label>
-                  </li>
+      <ul class="mt-12 flex flex-row justify-center gap-16">
+        <li>
+          <label
+            id="button"
+            class="flex w-40 items-center rounded px-8 py-3 hover:cursor-pointer"
+          >
+            <input
+              type="checkbox"
+              class="border-darkGrey h-5 w-6 rounded-md border hover:cursor-pointer"
+            />
+            <span class="ml-3 font-medium">Alle</span>
+          </label>
+        </li>
 
-                  <li>
-                    <label id="button" class="flex items-center hover:cursor-pointer px-8 py-3 w-40 rounded">
-                      <input
-                        type="checkbox"
-                        class="h-5 w-6 border border-darkGrey hover:cursor-pointer"
-                      />
-                      <span class="ml-3">Barn 1</span>
-                    </label>
-                  </li>
+        <li>
+          <label
+            id="button"
+            class="flex w-40 items-center rounded px-8 py-3 hover:cursor-pointer"
+          >
+            <input
+              type="checkbox"
+              class="border-darkGrey h-5 w-6 border hover:cursor-pointer"
+            />
+            <span class="ml-3">Barn 1</span>
+          </label>
+        </li>
 
-                  <li>
-                    <label id="button" class="flex items-center hover:cursor-pointer px-8 py-3 w-40 rounded">
-                      <input
-                        type="checkbox"
-                        class="h-5 w-6 border border-darkGrey hover:cursor-pointer"
-                      />
-                      <span class="ml-3">Barn 2</span>
-                    </label>
-                  </li>
-                </ul>
+        <li>
+          <label
+            id="button"
+            class="flex w-40 items-center rounded px-8 py-3 hover:cursor-pointer"
+          >
+            <input
+              type="checkbox"
+              class="border-darkGrey h-5 w-6 border hover:cursor-pointer"
+            />
+            <span class="ml-3">Barn 2</span>
+          </label>
+        </li>
+      </ul>
     </div>
-   
 
     <!--FILTRERING SLUT-->
 
     <!-- INDHOLD START -->
-    <div class="max-w-screen-xl px-7  mx-auto sm:px-6 lg:px-8 sm:py-24"> 
-        <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
-          <div class="lg:py-16">
-            <article class="space-y-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae faucibus auctor sit eu vel. Malesuada sed at arcu ut aliquam duis nisl hac. Lectus facilisis euismod sit arcu scelerisque vestibulum, vestibulum. </p>
-              <p>Leo, sollicitudin dolor nunc vel, magna faucibus facilisi placerat arcu. Dictumst a sapien nam rutrum integer malesuada sed porta. Magna tellus metus vitae arcu eget amet urna. Interdum quis viverra enim cras at aliquet. Lorem duis et pretium, volutpat aenean condimentum. </p>
-          
-            </article>
-          </div>
+    <div class="mx-auto max-w-screen-xl px-7 sm:px-6 sm:py-24 lg:px-8">
+      <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div class="lg:py-16">
+          <article class="space-y-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+              faucibus auctor sit eu vel. Malesuada sed at arcu ut aliquam duis
+              nisl hac. Lectus facilisis euismod sit arcu scelerisque
+              vestibulum, vestibulum.
+            </p>
+            <p>
+              Leo, sollicitudin dolor nunc vel, magna faucibus facilisi placerat
+              arcu. Dictumst a sapien nam rutrum integer malesuada sed porta.
+              Magna tellus metus vitae arcu eget amet urna. Interdum quis
+              viverra enim cras at aliquet. Lorem duis et pretium, volutpat
+              aenean condimentum.
+            </p>
+          </article>
+        </div>
 
-          <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-            <img
-              class="absolute inset-0 object-cover w-full h-full"
-              src="/img/food23.webp"
-              alt=""
-            />
-          </div>
+        <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+          <img
+            class="absolute inset-0 h-full w-full object-cover"
+            src="/img/food23.webp"
+            alt=""
+          />
         </div>
       </div>
+    </div>
     <!-- INDHOLD SLUT -->
 
     <!--MADRETTER START-->
-    <div class="rounded shadow bg-white bg-opacity-80 max-w-screen-xl  mx-auto sm:px-6 lg:px-8 sm:py-8 px-7 py-16 mb-28 border-orange border-4">
-      <h2 class="flex justify-center">Menu for april</h2>
-      <h3 class="mt-5 uppercase text-green">Uge 10</h3>
-        <div class="sm:grid min-w-full sm:grid-cols-5 gap-5 p-5 sm:p-10">
-          <div class="">
-            <h4 class="mb-2">Mandag</h4>
-            <p class="text-sm ">Vegetar madret lorem ipsum dolor sit amet.</p>
-            <img
-              src="/img/food1.webp"
-              alt="..."
-              class="h-full w-full rounded border-none object-cover shadow mt-4"
-            />
-          </div>
-          <div class="mt-5 lg:mt-0">
-            <h4 class="mb-2">Tirsdag</h4>
-            <p class="text-sm ">Madret lorem ipsum dolor sit amet.</p>
+    <div
+      class="border-orange mx-auto mb-28 max-w-screen-xl rounded border-4 bg-white bg-opacity-80 px-7 py-16 shadow sm:px-6 sm:py-8 lg:px-8"
+    >
+      <h2 class="flex justify-center uppercase">Menu for april</h2>
+      <h3 class="text-green mt-5 ml-10 uppercase">Uge 10</h3>
+      <div class="min-w-full gap-5 p-5 sm:grid sm:grid-cols-5 sm:p-10">
+        <div class="">
+          <h4 class="mb-2">Mandag</h4>
+          <p class="text-sm">Vegetar madret lorem ipsum dolor sit amet.</p>
+          <img
+            src="/img/food1.webp"
+            alt="..."
+            class="mt-4 h-52 w-52 rounded border-none object-cover shadow"
+          />
+        </div>
+        <div class="mt-5 lg:mt-0">
+          <h4 class="mb-2">Tirsdag</h4>
+          <p class="text-sm">Madret lorem ipsum dolor sit amet.</p>
 
-            <img
-              src="/img/food6.webp"
-              alt="..."
-              class="h-full w-full rounded border-none object-cover shadow mt-4"
-            />
-          </div>
-
-          <div class="mt-5 lg:mt-0">
-            <h4 class="mb-2">Onsdag</h4>
-            <p class="text-sm ">Madret lorem ipsum dolor sit amet.</p>
-
-            <img
-              src="/img/food10.webp"
-              alt="..."
-              class="h-full w-full rounded border-none object-cover shadow mt-4"
-            />
-          </div>
-
-          <div class="mt-5 lg:mt-0">
-            <h4 class="mb-2">Torsdag</h4>
-            <p class="text-sm ">Madret lorem ipsum dolor sit amet.</p>
-
-            <img
-              src="/img/food11.webp"
-              alt="..."
-              class="h-full w-full rounded border-none object-cover shadow mt-4"
-            />
-          </div>
-
-          <div class="mt-5 lg:mt-0">
-            <h4 class="mb-2">Fredag</h4>
-            <p class="text-sm ">Vegetar madret lorem ipsum dolor sit amet.</p>
-
-            <img
-              src="/img/food14.webp"
-              alt="..."
-              class="h-full min-h-fit w-full rounded border-none object-cover shadow mt-4"
-            />
-          </div>
+          <img
+            src="/img/food6.webp"
+            alt="..."
+            class="mt-4 h-52 w-52 rounded border-none object-cover shadow"
+          />
         </div>
 
-        <a id="button" class="relative inline-flex mt-28 items-center px-8 py-3 overflow-hidden rounded group" href="login-velkommen.html">
-          <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        <div class="mt-5 lg:mt-0">
+          <h4 class="mb-2">Onsdag</h4>
+          <p class="text-sm">Madret lorem ipsum dolor sit amet.</p>
+
+          <img
+            src="/img/food10.webp"
+            alt="..."
+            class="mt-4 h-52 w-52 rounded border-none object-cover shadow"
+          />
+        </div>
+
+        <div class="mt-5 lg:mt-0">
+          <h4 class="mb-2">Torsdag</h4>
+          <p class="text-sm">Madret lorem ipsum dolor sit amet.</p>
+
+          <img
+            src="/img/food11.webp"
+            alt="..."
+            class="mt-4 h-52 w-52 rounded border-none object-cover shadow"
+          />
+        </div>
+
+        <div class="mt-5 lg:mt-0">
+          <h4 class="mb-2">Fredag</h4>
+          <p class="text-sm">Vegetar madret lorem ipsum dolor sit amet.</p>
+
+          <img
+            src="/img/food14.webp"
+            alt="..."
+            class="mt-4 h-52 min-h-fit w-52 rounded border-none object-cover shadow"
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-end">
+        <a
+          id="button"
+          class="group relative mt-6 inline-flex items-center overflow-hidden rounded px-8 py-3"
+          href="login-velkommen.html"
+        >
+          <span
+            class="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4"
+          >
+            <svg
+              class="h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
             </svg>
           </span>
-          <span class="transition-all group-hover:ml-4">
-          Bestil her
-          </span>
+          <span class="transition-all group-hover:ml-4"> Bestil her </span>
         </a>
+      </div>
     </div>
     <!--MADRETTER DONE-->
 
     <!--FOOTER START-->
-    <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Skolemad ApS <a href="https://www.google.com/maps/@55.5218338,11.8123832,17z" class="hover:underline" target="_blank">Klaringen 15 · 4174 Jystrup</a> Tlf. 70 22 29 10
+    <footer
+      class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:flex md:items-center md:justify-between md:p-6"
+    >
+      <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+        >Skolemad ApS
+        <a
+          href="https://www.google.com/maps/@55.5218338,11.8123832,17z"
+          class="hover:underline"
+          target="_blank"
+          >Klaringen 15 · 4174 Jystrup</a
+        >
+        Tlf. 70 22 29 10
       </span>
-      <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+      <ul class="mt-3 flex flex-wrap items-center sm:mt-0">
         <li>
-          <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Om os</a>
+          <a
+            href="#"
+            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            >Om os</a
+          >
         </li>
         <li>
-          <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Vilkår</a>
+          <a
+            href="#"
+            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            >Vilkår</a
+          >
         </li>
         <li>
-          <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Kontakt</a>
+          <a
+            href="#"
+            class="text-sm text-gray-500 hover:underline dark:text-gray-400"
+            >Kontakt</a
+          >
         </li>
       </ul>
     </footer>
