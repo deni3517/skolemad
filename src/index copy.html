@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skolemad</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+
+
+  <body>
+
+    <!-- NAV START -->
+    <header class="shadow-sm">
+      <div class="max-w-screen-xl p-4 mx-auto">
+        <div class="flex items-center justify-between space-x-4 lg:space-x-10">
+          <div class="flex lg:w-0 lg:flex-1">
+            <span class="w-10 h-10">
+              <a href="index.html"><img class="h-10 w-auto" src="/img/SkoleMad_logo_cropped.png" alt=""></a>
+            </span>
+          </div>
+    
+          <nav class="hidden space-x-8 text-md font-medium md:flex">
+            <a class="text-gray-500" href="">Køkkenliste</a>
+            <a class="text-gray-500" href="">Priser</a>
+            <a class="text-gray-500" href="">Kontakt</a>
+          </nav>
+    
+          <div class="items-center justify-end flex-1 hidden space-x-4 sm:flex">
+            <a
+              class="px-5 py-7 text-sm font-medium text-gray-500 bg-gray-100 rounded-lg"
+              href="/src/login-velkommen.html"
+            >
+              Log ind
+            </a>
+    
+            <a
+              class="px-5 py-7 text-sm font-medium text-grey bg-blue-600 rounded-lg"
+              href=""
+            >
+              Opret konto
+            </a>
+          </div>
+    
+          <div class="lg:hidden">
+            <button class="p-2 text-gray-600 bg-gray-100 rounded-lg" type="button">
+              <span class="sr-only">Open menu</span>
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 6h16M4 12h16M4 18h16"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- NAV DONE -->
+
+
+    <!--HERO SECTION START-->
+    <section class="bg-forsidehero bg-cover bg-no-repeat bg-fixed bg-opacity-50">
+      <div class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
+        <div class="max-w-4xl lg:max-w-7xl mx-auto text-center">
+          <h1 class="font-extrabold mb-10 hover:cursor-default">
+            Velkommen til SkoleMad
+          </h1>
+
+          <p class="mt-4 sm:leading-relaxed sm:text-xl hover:cursor-default">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+          </p>
+
+          <div class="flex flex-wrap justify-center gap-7 mt-40 hover:cursor-pointer">
+            <div class="block max-w-sm px-10 bg-white bg-opacity-80 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+              <a href="foraeldre-forside.html">
+                <h3 class="mb-5">Privatperson</h3>
+                <p>
+                  Er du forældre og skal bestille mad til dit barn? - så klik her og se
+                  mere om månedens madplan og bestilling af madordning
+                </p>
+
+                <a id="button" class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden rounded group" href="foraeldre-forside.html">
+                <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+                <span class="transition-all group-hover:ml-4">
+                  Læs mere
+                </span>
+              </a>
+            </div>
+              
+            </a>
+
+            <div class="block max-w-sm px-10 bg-white bg-opacity-80 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+              <a href="#">
+                <h3 class="mb-5">Leverandør</h3>
+                <p>
+                  Vil du have adgang til et nemt onlinesystem, hvor du nemt kan få overblik og styring til jeres madordning? - så kan vi hjælpe!
+                </p>
+              </a>
+
+              <a id="button" class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden rounded group" href="#">
+                <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+                <span class="transition-all group-hover:ml-4">
+                  Læs mere
+                </span>
+              </a>
+            </div>
+
+            <div class="block max-w-sm px-10 bg-white bg-opacity-80 py-10 text-red-600 rounded shadow sm:w-auto hover:text-red-700 active:text-red-500 focus:outline-none focus:ring">
+              <a href="#">
+                <h3 class="mb-5">Modtager</h3>
+                <p>
+                  Vi tilbyder madordninger til skoler, virksomheder, kommuner og institutioner. Skal vi hjælpe jer med en ordning?
+                </p>
+              </a>
+
+              <a id="button" class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden rounded group" href="#">
+                <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+                <span class="transition-all group-hover:ml-4">
+                  Læs mere
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!--HERO SECTION DONE -->
+
+
+    <!-- NUMBER SECTION START -->
+    <section class="text-center bg-green hover:cursor-default mt-24">
+      <div class="max-w-screen-xl px-3 mt-32 mx-auto sm:px-6 lg:px-8">
+        <ul class="grid grid-cols-1 gap-4 rounded-xl lg:grid-cols-3">
+          <li class="p-8">
+            <p class="text-4xl lg:text-5xl font-extrabold text-white">51</p>
+            <p class="mt-5 text-lg font-medium uppercase text-white">Køkkener</p>
+          </li>
+    
+          <li class="p-8">
+            <p class="text-4xl lg:text-5xl font-extrabold text-white">398</p>
+            <p class="mt-5 text-lg font-medium uppercase text-white">Institutioner, skoler, virksomheder m.fl.</p>
+          </li>
+    
+          <li class="p-8">
+            <p class="text-4xl lg:text-5xl font-extrabold text-white">141.815</p>
+            <p class="mt-5 text-lg font-medium uppercase text-white">Brugere</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- NUMBER SECTION DONE -->
+
+    <!-- ICON + P SECTION -->
+    <section>
+      <div class="max-w-screen-xl px-7 mt-32 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-lg mx-auto text-center">
+          <h2>Vi tilbyder mad til</h2>
+        </div>
+    
+        <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 text-center">
+          <div class=" p-8 flex flex-col items-center	">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#FFC466" d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72L5.18 9L12 5.28L18.82 9zM17 15.99l-5 2.73l-5-2.73v-3.72L12 15l5-2.73v3.72z"></path></svg>
+            <h3 class="mt-5">Institutioner & skoler</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+    
+          <div class="p-8 flex flex-col items-center">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#FFC466" d="M13 16h-2c-.55 0-1-.45-1-1H3.01v4c0 1.1.9 2 2 2H19c1.1 0 2-.9 2-2v-4h-7c0 .55-.45 1-1 1zm7-9h-4c0-2.21-1.79-4-4-4S8 4.79 8 7H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-1c0-.55.45-1 1-1h2c.55 0 1 .45 1 1v1h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 7c0-1.1.9-2 2-2s2 .9 2 2H9.99H10z"></path></svg>    
+            <h3 class="mt-5">Firmaer & virksomheder</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+    
+          <div class="p-8 flex flex-col items-center">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#FFC466" d="M8 4a2 2 0 1 1 4 0c0 1.11-.89 2-2 2a2 2 0 0 1-2-2m12.65 17.5L14.5 10.85c-.73 0-1.27-.2-1.86-.59c-.6-.39-1.04-.88-1.33-1.46l-.74-1.57c-.18-.35-.42-.61-.74-.79c-.29-.17-.6-.26-.92-.26c-.32 0-.62.08-.91.22L3 9.23v4.4h1.86v-3.31l1.39-.78l-.34 1.57c-.09.52-.14 1.04-.14 1.57v4.96l-2.39 3.23L4.86 22l2.79-3.75l.17-3.25l1.68 2.34V22h1.85v-6.06L9.5 13.33v-.65c0-.44 0-.87.11-1.29l.35-1.2c.38.55.85 1.01 1.39 1.44c.85.68 1.65.96 3 .95L19.78 22l.87-.5Z"></path></svg>            
+            <h3 class="mt-5">Pensionister</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+    
+          <div class="p-8 flex flex-col items-center">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#FFC466" d="M16 3.23C16.71 2.41 17.61 2 18.7 2c.91 0 1.67.33 2.3 1c.63.67.96 1.43 1 2.3c0 .7-.33 1.51-1 2.46s-1.32 1.74-1.97 2.39c-.65.64-1.66 1.59-3.03 2.85c-1.39-1.26-2.41-2.21-3.06-2.85s-1.31-1.44-1.97-2.39C10.31 6.81 10 6 10 5.3c0-.91.32-1.67.97-2.3c.65-.63 1.43-.96 2.34-1c1.07 0 1.96.41 2.69 1.23M22 19v1l-8 2.5l-7-1.94V22H1V11h7.97l6.16 2.3A2.89 2.89 0 0 1 17 16h2c1.66 0 3 1.34 3 3M5 20v-7H3v7h2m14.9-1.43c-.16-.33-.51-.57-.9-.57h-5.35c-.54 0-1.07-.08-1.58-.25l-2.38-.79l.63-1.9l2.38.79c.3.1 2.3.15 2.3.15c0-.37-.23-.7-.57-.83L8.61 13H7v5.5l6.97 1.91l5.93-1.84Z"></path></svg>
+            <h3 class="mt-5">Hospitaler & pårørende</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+    
+          <div class="p-8 flex flex-col items-center">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#FFC466" d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26c1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-8-15.03-8-15.03 0h15.03zM1.02 17h15v2h-15z"></path></svg>            
+            <h3 class="mt-4">Take-away</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+    
+          <div class="p-8 flex flex-col items-center">
+            <svg class="h-20 w-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ion" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path fill="none" stroke="#FFC466" stroke-miterlimit="10" stroke-width="32" d="M414.11 153.82C429.66 264.4 345.85 357.09 282.54 366s-169.48-57.5-185-167.68a159.82 159.82 0 1 1 316.53-44.49Z"></path><path fill="none" stroke="#FFC466" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M236.06 308.05c-32.83-13-67.08-43.1-82.27-85.46M367.7 495.78c-32.83-13-63.31-40.06-78.5-82.41"></path><path fill="none" stroke="#FFC466" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m266.71 368.21l-9.17 49.61l63.31-8.9l-22.49-45.16l-31.65 4.45z"></path></svg>    
+            <h3 class="mt-5">Børnefødselsdage & arrangementer</h3>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            </p>
+          </div>
+        </div>
+    
+        <div class="mt-12 text-center">
+          <a id="button" class="relative inline-flex mt-10 items-center px-8 py-3 overflow-hidden rounded group" href="#">
+            <span class="absolute left-0 transition-transform -translate-x-full group-hover:translate-x-4">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+            <span class="transition-all group-hover:ml-4">
+              Læs mere
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- P SECTION -->
+      <div class="max-w-screen-xl px-7  mx-auto sm:px-6 lg:px-8 sm:py-24"> 
+        <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
+          <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+            <img
+              class="absolute inset-0 object-cover w-full h-full"
+              src="/img/food23.webp"
+              alt=""
+            />
+          </div>
+    
+          <div class="lg:py-16">
+            <article class="space-y-4">
+              <p>
+                SkoleMad tilbyder et system til at styre fleksibel og rationel levering af skolemad, mad til firmaer, mad ud af huset, take-away, pensionistmad og meget mere.
+              </p>
+              <p>
+                Systemet er åbent for alle, der ønsker at benytte det, skoler, leverandører og kommuner. Prisen er lav, og prislisten er åben og ærlig.
+              </p>
+              <p>
+                Systemet er det første og det mest udbredte og af sin slags. Systemet har i den forløbne uge ekspederet 65.415 portioner, og de sidste to måneder 524.311 portioner mad til disse.
+              </p>
+              <p>
+                Dermed er det det største, og tillige billigste, nemmeste og ærligste system. Det bruges mest til skolemad, men også til bestilling af institutionsmad, firmamad, pensionistmad, og pårørendemad på hospitaler.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">   
+          <div class="lg:py-16">
+            <article class="space-y-4">
+              <p>
+                Desuden til bestilling af take-away, børnefødselsdage, tidsbestilling og arrangementer.
+              </p>
+              <p>
+                Vi yder samtidig en udstrakt gratis service og support til alle køkkener, skoler, firmaer og slutkunder.
+              </p>
+              <p>Hvis du er interesseret i systemet, er du velkommen til at kontakte os og tillige alle disse køkkener, for at høre, hvor tilfredse de er. </p>
+              <p class="bg-orange text-white font-bold p-5 rounded-md">Jersie Data ApS, der står bag systemet, er som krævet godkendt af Forbrugerombudsmanden og anmeldt til Datatilsynet og Finanstilsynet. </p>
+            </article>
+          </div>
+          <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+            <img
+              class="absolute inset-0 object-cover w-full h-full"
+              src="/img/food8.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ICON + P SECTION DONE -->
+
+
+    <!--FOOTER START-->
+    <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Skolemad ApS <a href="https://www.google.com/maps/@55.5218338,11.8123832,17z" class="hover:underline" target="_blank">Klaringen 15 · 4174 Jystrup</a> Tlf. 70 22 29 10
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+        <li>
+          <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Om os</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Vilkår</a>
+        </li>
+        <li>
+          <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Kontakt</a>
+        </li>
+      </ul>
+    </footer>
+    <!--FOOTER DONE-->
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
