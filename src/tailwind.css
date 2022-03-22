@@ -12,6 +12,9 @@
     h3 {
       @apply  text-darkGrey font-bold text-xl lg:text-2xl;
     }
+    h4 {
+      @apply text-darkGrey font-semibold text-lg lg:text-xl
+    }
     p {
       @apply text-darkGrey text-base;
     }
