@@ -32,7 +32,7 @@
 
           <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
             <a
-              class="rounded-lg px-5 py-7 text-sm font-medium text-darkGrey"
+              class="text-darkGrey rounded-lg px-5 py-7 text-sm font-medium"
               href="/src/login-velkommen.html"
             >
               Log ind
@@ -47,10 +47,7 @@
           </div>
 
           <div class="lg:hidden">
-            <button
-              class="rounded-lg p-2 text-darkGrey"
-              type="button"
-            >
+            <button class="text-darkGrey rounded-lg p-2" type="button">
               <span class="sr-only">Open menu</span>
               <svg
                 aria-hidden="true"
@@ -92,16 +89,16 @@
 -->
 
           <div
-            class="mx-auto max-w-screen-xl bg-lightGrey bg-opacity-80 sm:px-6 lg:px-8 border-green border-2 rounded-md"
+            class="bg-lightGrey border-green mx-auto max-w-screen-xl rounded-md border-2 bg-opacity-80 sm:px-6 lg:px-8"
           >
             <div class="mx-auto max-w-lg px-4 py-16 text-center">
               <h1 class="text-green text-2xl font-bold sm:text-3xl">
                 Velkommen til SkoleMad!
               </h1>
 
-              <p class="mt-4 text-darkGrey">
+              <p class="text-darkGrey mt-4">
                 Her kan du nemt og hurtigt bestille sunde
-                <br> 
+                <br />
                 og delikate madpakker til dine børn.
               </p>
             </div>
@@ -113,7 +110,7 @@
                 <div class="relative">
                   <input
                     type="email"
-                    class="w-full rounded-lg border-green p-4 pr-12 text-sm shadow-sm"
+                    class="border-green w-full rounded-lg p-4 pr-12 text-sm shadow-sm"
                     placeholder="Enter email"
                   />
 
@@ -122,7 +119,7 @@
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 text-darkGrey"
+                      class="text-darkGrey h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="#3A3A3A"
@@ -143,7 +140,7 @@
                 <div class="relative">
                   <input
                     type="password"
-                    class="w-full rounded-lg border-green p-4 pr-12 text-sm shadow-sm"
+                    class="border-green w-full rounded-lg p-4 pr-12 text-sm shadow-sm"
                     placeholder="Enter password"
                   />
 
@@ -152,7 +149,7 @@
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 text-darkGrey"
+                      class="text-darkGrey h-5 w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="#3A3A3A"
@@ -175,44 +172,43 @@
               </div>
 
               <div class="flex items-center justify-between">
-                <p class="text-sm text-darkGrey">
+                <p class="text-darkGrey text-sm">
                   Ingen konto?
                   <a class="underline" href="">Opret dig her</a>
                 </p>
 
                 <button
                   type="submit"
-                  class="ml-3 inline-block rounded-lg px-5 py-3 text-sm font-medium text-darkGrey"
+                  class="text-darkGrey ml-3 inline-block rounded-lg px-5 py-3 text-sm font-medium"
                 >
                   Glemt kode
                 </button>
 
                 <a
-            id="button"
-            class="group relative mt-10 inline-flex items-center overflow-hidden rounded px-8 py-3 mb-10"
-            href="#"
-          >
-            <span
-              class="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4"
-            >
-              <svg
-                class="h-5 w-5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </span>
-            <span class="transition-all group-hover:ml-4"> Log in </span>
-          </a>
-
+                  id="button"
+                  class="group relative mt-10 mb-10 inline-flex items-center overflow-hidden rounded px-8 py-3"
+                  href="#"
+                >
+                  <span
+                    class="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4"
+                  >
+                    <svg
+                      class="h-5 w-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </span>
+                  <span class="transition-all group-hover:ml-4"> Log in </span>
+                </a>
               </div>
             </form>
           </div>
@@ -542,14 +538,14 @@
       class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:flex md:items-center md:justify-between md:p-6"
     >
       <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
-        >Skolemad ApS
+        >Skolemad ApS ·
         <a
           href="https://www.google.com/maps/@55.5218338,11.8123832,17z"
           class="hover:underline"
           target="_blank"
-          >Klaringen 15 · 4174 Jystrup</a
+          >Klaringen 15, 4174 Jystrup</a
         >
-        Tlf. 70 22 29 10
+        · Tlf. 70 22 29 10
       </span>
       <ul class="mt-3 flex flex-wrap items-center sm:mt-0">
         <li>
@@ -566,11 +562,35 @@
             >Vilkår</a
           >
         </li>
+
+        <li>
+          <a
+            href="#"
+            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            >Kontakt</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="#"
+            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            >Leverandør</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            >Modtager</a
+          >
+        </li>
+
         <li>
           <a
             href="#"
             class="text-sm text-gray-500 hover:underline dark:text-gray-400"
-            >Kontakt</a
+            >Privatperson</a
           >
         </li>
       </ul>
