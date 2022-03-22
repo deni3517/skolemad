@@ -25,14 +25,14 @@
           </div>
 
           <nav class="text-md hidden space-x-8 font-medium md:flex">
-            <a class="text-gray-500" href="">Køkkenliste</a>
-            <a class="text-gray-500" href="">Priser</a>
-            <a class="text-gray-500" href="">Kontakt</a>
+            <a class="text-darkGrey" href="">Køkkenliste</a>
+            <a class="text-darkGrey" href="">Priser</a>
+            <a class="text-darkGrey" href="">Kontakt</a>
           </nav>
 
           <div class="hidden flex-1 items-center justify-end space-x-4 sm:flex">
             <a
-              class="rounded-lg bg-gray-100 px-5 py-7 text-sm font-medium text-gray-500"
+              class="rounded-lg px-5 py-7 text-sm font-medium text-darkGrey"
               href="/src/login-velkommen.html"
             >
               Log ind
@@ -48,7 +48,7 @@
 
           <div class="lg:hidden">
             <button
-              class="rounded-lg bg-gray-100 p-2 text-gray-600"
+              class="rounded-lg p-2 text-darkGrey"
               type="button"
             >
               <span class="sr-only">Open menu</span>
@@ -92,16 +92,17 @@
 -->
 
           <div
-            class="mx-auto max-w-screen-xl bg-white opacity-80 sm:px-6 lg:px-8"
+            class="mx-auto max-w-screen-xl bg-lightGrey bg-opacity-80 sm:px-6 lg:px-8 border-green border-2 rounded-md"
           >
             <div class="mx-auto max-w-lg px-4 py-16 text-center">
               <h1 class="text-green text-2xl font-bold sm:text-3xl">
-                Velkommen til skolemad
+                Velkommen til SkoleMad!
               </h1>
 
-              <p class="mt-4 text-gray-500">
-                Her kan du nemt og hurtigt bestille sunde og delikate madpakker
-                til dine børn
+              <p class="mt-4 text-darkGrey">
+                Her kan du nemt og hurtigt bestille sunde
+                <br> 
+                og delikate madpakker til dine børn.
               </p>
             </div>
 
@@ -112,7 +113,7 @@
                 <div class="relative">
                   <input
                     type="email"
-                    class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
+                    class="w-full rounded-lg border-green p-4 pr-12 text-sm shadow-sm"
                     placeholder="Enter email"
                   />
 
@@ -121,10 +122,10 @@
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 text-gray-400"
+                      class="h-5 w-5 text-darkGrey"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="#3A3A3A"
                     >
                       <path
                         stroke-linecap="round"
@@ -142,7 +143,7 @@
                 <div class="relative">
                   <input
                     type="password"
-                    class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
+                    class="w-full rounded-lg border-green p-4 pr-12 text-sm shadow-sm"
                     placeholder="Enter password"
                   />
 
@@ -151,10 +152,10 @@
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 text-gray-400"
+                      class="h-5 w-5 text-darkGrey"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="#3A3A3A"
                     >
                       <path
                         stroke-linecap="round"
@@ -174,24 +175,44 @@
               </div>
 
               <div class="flex items-center justify-between">
-                <p class="text-sm text-gray-500">
+                <p class="text-sm text-darkGrey">
                   Ingen konto?
                   <a class="underline" href="">Opret dig her</a>
                 </p>
 
                 <button
                   type="submit"
-                  class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-gray-500"
+                  class="ml-3 inline-block rounded-lg px-5 py-3 text-sm font-medium text-darkGrey"
                 >
                   Glemt kode
                 </button>
 
-                <button
-                  type="submit"
-                  class="ml-3 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-gray-500"
-                >
-                  Log ind
-                </button>
+                <a
+            id="button"
+            class="group relative mt-10 inline-flex items-center overflow-hidden rounded px-8 py-3 mb-10"
+            href="#"
+          >
+            <span
+              class="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4"
+            >
+              <svg
+                class="h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </span>
+            <span class="transition-all group-hover:ml-4"> Log in </span>
+          </a>
+
               </div>
             </form>
           </div>
