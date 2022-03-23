@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forældre log-in</title>
+    <title>Kontoudtog</title>
     <link rel="stylesheet" href="tailwind.css" />
     <link
       rel="apple-touch-icon"
@@ -66,14 +66,14 @@
               <div id="brugerknap">
                 <button
                   type="button"
-                  class="text-darkGrey flex w-full items-center justify-center rounded-md px-4 py-7 text-sm font-medium hover:bg-gray-50 dark:text-gray-50 dark:hover:bg-gray-500"
+                  class="text-darkGrey flex w-full items-center justify-center rounded-md px-4 py-7 text-sm font-medium"
                   id="options-menu"
                 >
                   <svg
                     width="25"
                     fill="currentColor"
                     height="25"
-                    class="text-gray-800"
+                    class="text-darkGrey"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -86,7 +86,7 @@
               <!-- MIN SIDE START-->
               <div
                 id="brugermenu"
-                class="border-green absolute right-0 hidden w-60 origin-top-right rounded-md border-2 bg-white bg-opacity-80 p-3 shadow-lg ring-1 dark:bg-gray-800"
+                class="border-green absolute right-0 hidden w-60 origin-top-right rounded-md border-2 bg-white bg-opacity-80 p-3 shadow-lg ring-1"
               >
                 <div
                   class="py-1"
@@ -108,7 +108,7 @@
                   </p>
                   <a
                     href="#"
-                    class="text-md text-darkGrey block px-4 py-2 font-medium hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    class="text-md text-darkGrey block px-4 py-2 font-medium dark:hover:text-white"
                     role="menuitem"
                   >
                     <span class="flex flex-col">
@@ -249,12 +249,12 @@
       }
     </style>
 
-    <main class="mx-auto mt-10 mb-10 w-3/5 bg-white p-8">
-      <section class="row shadow">
+    <main class="mx-auto mt-10 mb-10 w-3/5 bg-white shadow-sm rounded p-8">
+      <section class="row rounded">
         <div class="tabs">
           <!--MARTS START-->
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -264,11 +264,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck1"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   Marts 2022
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-darkGrey test flex h-7 w-7 items-center text-darkGrey justify-center rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -277,10 +277,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -292,11 +292,11 @@
               <div class="tab-content">
                 <!--BARN 1 START-->
 
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -388,9 +388,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -400,11 +400,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -496,15 +496,15 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
-                      Samlet beløb for hele marts 1200 kr.
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
+                      Samlet beløb for hele marts: 1200 kr.
                     </h5>
                   </ul>
                 </div>
@@ -516,8 +516,8 @@
           <!--MARTS DONE-->
 
           <!--FEBRUAR START-->
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-b-2 border-r-2 border-l-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -527,11 +527,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck2"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   Februar 2022
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-grey test flex h-7 w-7 items-center text-darkGrey justify-center rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -540,10 +540,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -555,11 +555,11 @@
               <div class="tab-content">
                 <!--BARN 1 START-->
 
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -651,9 +651,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -663,11 +663,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -759,14 +759,14 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
                       Samlet beløb for hele februar 1200 kr.
                     </h5>
                   </ul>
@@ -778,8 +778,8 @@
           <!--FEBRUAR DONE-->
 
           <!--JANUAR START-->
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-b-2 border-r-2 border-l-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -789,11 +789,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck2"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   Januar 2022
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-grey test flex h-7 w-7 items-center text-darkGrey justify-center rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -802,10 +802,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -817,11 +817,11 @@
               <div class="tab-content">
                 <!--BARN 1 START-->
 
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -913,9 +913,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -925,11 +925,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1021,14 +1021,14 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
                       Samlet beløb for hele januar 1200 kr.
                     </h5>
                   </ul>
@@ -1041,8 +1041,8 @@
           <!--JANUAR DONE-->
 
           <!--DECEMBER START-->
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-b-2 border-r-2 border-l-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -1052,11 +1052,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck2"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   December 2021
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-grey test flex h-7 w-7 items-center text-darkGrey justify-center rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -1065,10 +1065,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1080,11 +1080,11 @@
               <div class="tab-content">
                 <!--BARN 1 START-->
 
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1176,9 +1176,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -1188,11 +1188,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1284,14 +1284,14 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
                       Samlet beløb for hele december 1200 kr.
                     </h5>
                   </ul>
@@ -1305,8 +1305,8 @@
 
           <!--NOVEMBER START-->
 
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-b-2 border-r-2 border-l-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -1316,11 +1316,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck2"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   November 2021
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-grey test flex h-7 w-7 items-center justify-center text-darkGrey rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -1329,10 +1329,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1343,11 +1343,11 @@
               </header>
               <div class="tab-content">
                 <!--BARN 1 START-->
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1439,9 +1439,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -1450,11 +1450,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1546,14 +1546,14 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
                       Samlet beløb for hele november 1200 kr.
                     </h5>
                   </ul>
@@ -1566,8 +1566,8 @@
           <!--NOVEMBER DONE-->
 
           <!--OKTOBER START-->
-          <div class="tab border-orange border-b">
-            <div class="border-orange relative border-l-2 border-transparent">
+          <div class="tab border-orange rounded border-b-2 border-r-2 border-l-2">
+            <div class="relative">
               <input
                 class="absolute top-6 z-10 h-5 w-full cursor-pointer opacity-0"
                 type="checkbox"
@@ -1577,11 +1577,11 @@
                 class="tab-label flex cursor-pointer select-none items-center justify-between p-5 pl-8 pr-8"
                 for="chck3"
               >
-                <span class="text-grey-darkest text-xl font-thin">
+                <span class="text-darkGrey text-xl font-normal">
                   Oktober 2021
                 </span>
                 <div
-                  class="border-grey test flex h-7 w-7 items-center justify-center rounded-full border"
+                  class="border-grey test flex h-7 w-7 items-center text-darkGrey justify-center rounded-full border"
                 >
                   <!-- icon by feathericons.com -->
                   <svg
@@ -1590,10 +1590,10 @@
                     data-reactid="266"
                     fill="none"
                     height="24"
-                    stroke="#606F7B"
+                    stroke="#3A3A3A"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     viewbox="0 0 24 24"
                     width="24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1605,11 +1605,11 @@
               <div class="tab-content">
                 <!--BARN 1 START-->
 
-                <div class="text-grey-darkest pl-8 pr-8 pb-5">
+                <div class="text-darkGrey pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 1</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1701,9 +1701,9 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
@@ -1713,11 +1713,11 @@
                 <!--BARN 1 DONE-->
 
                 <!--BARN 2 START-->
-                <div class="text-grey-darkest min-w-full pl-8 pr-8 pb-5">
+                <div class="text-darkGrey min-w-full pl-8 pr-8 pb-5">
                   <ul class="pl-4">
                     <li class="pb-2 font-bold">Barn 2</li>
                     <div
-                      class="text-green text-md flex justify-between rounded-md bg-gradient-to-tr from-indigo-600 to-purple-600 py-2 px-4 font-bold"
+                      class="text-green text-md flex justify-between rounded-md py-2 px-4 font-bold"
                     >
                       <div>
                         <span>Ugenummer</span>
@@ -1809,14 +1809,14 @@
                       </p>
 
                       <p class="justify-end text-sm sm:flex">
-                        Betalt med Mobilepay
+                        Betalt med MobilePay
                       </p>
-                      <p class="mt-3 justify-end text-sm sm:flex">
+                      <p class="mt-3 justify-end text-sm sm:flex font-semibold">
                         Beløb i alt 600 kr.
                       </p>
                     </div>
 
-                    <h5 class="mt-5 justify-end text-sm font-bold sm:flex">
+                    <h5 class="mt-5 justify-end text-base font-bold text-orange sm:flex mb-7">
                       Samlet beløb for hele oktober 1200 kr.
                     </h5>
                   </ul>
@@ -1847,9 +1847,9 @@
 
     <!--FOOTER START-->
     <footer
-      class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:flex md:items-center md:justify-between md:p-6"
+      class="rounded-lg bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6"
     >
-      <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+      <span class="text-sm text-darkGrey sm:text-center"
         >Skolemad ApS ·
         <a
           href="https://www.google.com/maps/@55.5218338,11.8123832,17z"
@@ -1859,18 +1859,18 @@
         >
         · Tlf. 70 22 29 10
       </span>
-      <ul class="mt-3 flex flex-wrap items-center sm:mt-0">
+      <ul class="mt-3 flex flex-wrap items-center text-darkGrey sm:mt-0">
         <li>
           <a
             href="#"
-            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            class="mr-4 text-sm hover:underline md:mr-6"
             >Om os</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            class="mr-4 text-sm hover:underline md:mr-6"
             >Vilkår</a
           >
         </li>
@@ -1878,7 +1878,7 @@
         <li>
           <a
             href="#"
-            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            class="mr-4 text-sm hover:underline md:mr-6"
             >Kontakt</a
           >
         </li>
@@ -1886,14 +1886,14 @@
         <li>
           <a
             href="#"
-            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            class="mr-4 text-sm hover:underline md:mr-6"
             >Leverandør</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400 md:mr-6"
+            class="mr-4 text-sm hover:underline md:mr-6"
             >Modtager</a
           >
         </li>
@@ -1901,7 +1901,7 @@
         <li>
           <a
             href="#"
-            class="text-sm text-gray-500 hover:underline dark:text-gray-400"
+            class="text-sm text-darkGrey hover:underline"
             >Privatperson</a
           >
         </li>
