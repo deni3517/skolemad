@@ -14,4 +14,24 @@ function visBrugermenu() {
 
 function lukBrugermenu() {
   brugermenu.classList.add("hidden");
+  brugerknap.addEventListener("mousedown", visBrugermenu2);
+}
+
+function visBrugermenu2() {
+  brugermenu.classList.remove("hidden");
+  brugerknap.addEventListener("mousedown", lukBrugermenu2);
+}
+
+function lukBrugermenu2() {
+  brugermenu.classList.add("hidden");
+  brugerknap.addEventListener("mousedown", visBrugermenu3);
+}
+
+function visBrugermenu3() {
+  brugermenu.classList.remove("hidden");
+  brugerknap.addEventListener("mousedown", lukBrugermenu3);
+}
+
+function lukBrugermenu3() {
+  brugermenu.classList.add("hidden");
 }
